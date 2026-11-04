@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/guardian/Guardian.tscn" id="1_guardian"]
+[ext_resource type="Script" path="res://scenes/viewer/OrbitCamera.gd" id="2_cam"]
+
+[sub_resource type="ProceduralSkyMaterial" id="sky_mat"]
+sky_top_color = Color(0.3, 0.33, 0.48, 1)
+sky_horizon_color = Color(0.8, 0.68, 0.56, 1)
+ground_bottom_color = Color(0.3, 0.25, 0.2, 1)
+ground_horizon_color = Color(0.8, 0.68, 0.56, 1)
+
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_mat")
+
+[sub_resource type="Environment" id="env"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+ambient_light_energy = 0.8
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="ground_mat"]
+albedo_color = Color(0.55, 0.47, 0.4, 1)
+roughness = 1.0
+
+[sub_resource type="PlaneMesh" id="ground_mesh"]
+material = SubResource("ground_mat")
+size = Vector2(200, 200)
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.76484, 0.00000, -0.64422, -0.43912, 0.73169, -0.52135, 0.47137, 0.68164, 0.55963, 0, 20, 0)
+light_energy = 1.3
+shadow_enabled = true
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("ground_mesh")
+
+[node name="Guardian" parent="." instance=ExtResource("1_guardian")]
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 2.7, 9)
+current = true
+script = ExtResource("2_cam")

@@ -12,6 +12,7 @@ config_version=5
 
 config/name="Yesteryear"
 config/description="Third Moon Interactive - an interactive Star Trek story built on the Vulcan Fury framework."
+run/main_scene="res://scenes/viewer/Main.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [rendering]
