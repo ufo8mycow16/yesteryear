@@ -1,13 +1,11 @@
-[gd_scene load_steps=8 format=3]
+[gd_scene load_steps=9 format=3]
 
 [ext_resource type="PackedScene" path="res://scenes/guardian/Guardian.tscn" id="1_guardian"]
 [ext_resource type="Script" path="res://scenes/viewer/OrbitCamera.gd" id="2_cam"]
+[ext_resource type="Texture2D" path="res://assets/textures/sky/storm_dusk_panorama.png" id="3_sky"]
 
-[sub_resource type="ProceduralSkyMaterial" id="sky_mat"]
-sky_top_color = Color(0.3, 0.33, 0.48, 1)
-sky_horizon_color = Color(0.8, 0.68, 0.56, 1)
-ground_bottom_color = Color(0.3, 0.25, 0.2, 1)
-ground_horizon_color = Color(0.8, 0.68, 0.56, 1)
+[sub_resource type="PanoramaSkyMaterial" id="sky_mat"]
+panorama = ExtResource("3_sky")
 
 [sub_resource type="Sky" id="sky"]
 sky_material = SubResource("sky_mat")
@@ -34,6 +32,7 @@ environment = SubResource("env")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.76484, 0.00000, -0.64422, -0.43912, 0.73169, -0.52135, 0.47137, 0.68164, 0.55963, 0, 20, 0)
+light_color = Color(1, 0.78, 0.55, 1)
 light_energy = 1.3
 shadow_enabled = true
 
