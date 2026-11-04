@@ -39,22 +39,28 @@ const SCENES := [
 		["beam_out", ["kirk", "spock", "mccoy", "historian"]],
 	]},
 
-	# 2. Enterprise transporter room
+	# 2. Enterprise transporter room (Scotty on the controls, the first officer McCoy on the pads)
 	{"set": "transporter", "title": "U.S.S. Enterprise",
-	 "cast": {"thelin": ["console", 270.0]},
+	 "cast": {"scotty": ["console", 270.0], "thelin": ["officer", 270.0]},
 	 "camera": ["room_cam", "pads"],
 	 "beats": [
 		["place", "kirk", "pad1", 90.0], ["place", "spock", "pad2", 90.0], ["place", "mccoy", "pad3", 90.0],
 		["hide", ["kirk", "spock", "mccoy"]],
 		["beam_in", ["kirk", "spock", "mccoy"]],
 		["cam", "thelin_cam", "console_head", 0.0],
+		["face", "scotty", "spock"],
+		["say", "scotty", "Welcome back, Captain. I had a historian down for that pad. I didnae have a Vulcan."],
+		["cam", "officer_cam", "officer_head", 0.0],
 		["say", "thelin", "Captain. Welcome back."],
 		["face", "thelin", "spock"],
 		["say", "thelin", "We weren't told to expect a guest."],
 		["cam", "pads_cam", "pad1_head", 0.0],
 		["say", "kirk", "Guest? Mister Spock is my first officer."],
-		["cam", "thelin_cam", "console_head", 0.0],
+		["cam", "officer_cam", "officer_head", 0.0],
 		["say", "thelin", "With respect, sir, I've held that post for five years. I would have noticed."],
+		["cam", "pads_cam", "pad3_head", 0.0],
+		["face", "mccoy", "kirk"],
+		["say", "mccoy", "He has, Jim. Commander Thelin. You've signed every one of his fitness reports."],
 		["walk", "spock", "floor_spock", 1.5],
 		["cam", "pads_cam", "floor_spock_head", 1.5],
 		["say", "spock", "Captain. I believe we should find out what has changed before we decide who is mistaken."],
@@ -294,15 +300,18 @@ const SCENES := [
 		["beam_out", ["kirk", "spock"]],
 	]},
 
-	# 12. Enterprise transporter room - home
+	# 12. Enterprise transporter room - home (Scotty on the controls, McCoy waiting on the deck)
 	{"set": "transporter", "title": "",
-	 "cast": {"mccoy": ["console", 270.0]},
+	 "cast": {"scotty": ["console", 270.0], "mccoy": ["doc", 270.0]},
 	 "camera": ["room_cam", "pads"],
 	 "beats": [
 		["place", "kirk", "pad1", 90.0], ["place", "spock", "pad2", 90.0],
 		["hide", ["kirk", "spock"]],
 		["beam_in", ["kirk", "spock"]],
 		["cam", "thelin_cam", "console_head", 0.0],
+		["say", "scotty", "Two up, Captain. And both of them the ones I sent."],
+		["cam", "doc_cam", "doc_head", 0.0],
+		["face", "mccoy", "spock"],
 		["say", "mccoy", "Spock, you're overdue for your physical. And for the record, I knew who you were the whole time."],
 		["cam", "pads_cam", "pad2_head", 0.0],
 		["say", "spock", "Of course you did, Doctor."],

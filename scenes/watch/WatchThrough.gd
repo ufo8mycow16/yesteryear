@@ -16,7 +16,7 @@ const Sets := preload("res://scenes/watch/Sets.gd")
 
 ## Display names for subtitles and markers
 const NAMES := {
-	"kirk": "Kirk", "spock": "Spock", "mccoy": "McCoy", "thelin": "Thelin", "historian": "Historian",
+	"kirk": "Kirk", "spock": "Spock", "mccoy": "McCoy", "scotty": "Scotty", "thelin": "Thelin", "historian": "Historian",
 	"guardian": "Guardian", "young_spock": "Young Spock", "sarek": "Sarek", "amanda": "Amanda",
 	"ichaya": "I-Chaya", "lematya": "Le-matya", "healer": "Healer",
 	"boy1": "Vulcan boy", "boy2": "Vulcan boy", "boy3": "Vulcan boy", "selek": "Spock",
@@ -181,7 +181,7 @@ func _place(who: String, at: Vector3, facing_deg: float) -> void:
 
 func _make_actor(who: String, at: Vector3, facing_deg: float) -> Node3D:
 	match who:
-		"kirk", "mccoy", "spock", "selek":
+		"kirk", "mccoy", "spock", "selek", "scotty":
 			var key := "spock" if who == "selek" else who
 			if ClassDB.class_exists("CharacterKit") or ResourceLoader.exists("res://core/characters/CharacterKit.gd"):
 				var fig: Node3D = CharacterKit.make_named(key, {"solid": false})

@@ -30,13 +30,17 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 
 ## 2. Enterprise: transporter room
 
-*They shimmer in. An ANDORIAN in a command-gold tunic waits by the console: COMMANDER THELIN.*
+*They shimmer in. SCOTTY is at the transporter console. An ANDORIAN in a science-blue tunic stands on the deck to meet them: COMMANDER THELIN, the first officer.*
+
+**SCOTTY:** Welcome back, Captain. I had a historian down for that pad. I didnae have a Vulcan.
 
 **THELIN:** Captain. Welcome back. *(to Spock, politely and coolly)* We weren't told to expect a guest.
 
 **KIRK:** Guest? Mister Spock is my first officer.
 
 **THELIN:** With respect, sir, I've held that post for five years. I would have noticed.
+
+**McCOY:** *(from the pad)* He has, Jim. Commander Thelin. You've signed every one of his fitness reports.
 
 *Kirk looks from one to the other. Spock steps down from the pad.*
 
@@ -250,7 +254,9 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 
 ## 12. Enterprise: transporter room
 
-*Kirk and Spock shimmer in. DR McCOY is waiting by the console.*
+*Kirk and Spock shimmer in. SCOTTY is at the console; DR McCOY waits on the deck.*
+
+**SCOTTY:** Two up, Captain. And both of them the ones I sent.
 
 **McCOY:** Spock, you're overdue for your physical. And for the record, I knew who you were the whole time.
 
@@ -263,7 +269,7 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 ---
 
 ### Cast for this version
-Kirk, Spock, McCoy (we have them), Thelin (Andorian, voice idea: the Combs-style Andorian), a Historian, the Guardian (voice), Spock as Selek (robe), Young Spock (child), Sarek, Amanda, I-Chaya (sehlat), the le-matya, the Healer, three Vulcan boys.
+Kirk, Spock, McCoy, Scotty (we have them), Thelin (Andorian, voice idea: the Combs-style Andorian), a Historian, the Guardian (voice), Spock as Selek (robe), Young Spock (child), Sarek, Amanda, I-Chaya (sehlat), the le-matya, the Healer, three Vulcan boys.
 
 ### Locations
 Guardian's planet (built), Enterprise transporter room and briefing room (Vulcan Fury's Deck 7), Shi'Kahr street, Sarek's courtyard and the healer's door (Vulcan Fury's Shi'Kahr), the desert below the hills (Vulcan Fury's desert).

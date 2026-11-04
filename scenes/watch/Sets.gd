@@ -205,6 +205,9 @@ static func _transporter_spots() -> Dictionary:
 		"floor_spock": _d(-24.6, -40.2),
 		"room_cam": _d(-16.8, -36.9, 1.75), "thelin_cam": _d(-22.6, -41.6, 1.6), "pads_cam": _d(-21.4, -39.4, 1.6),
 		"spock": _d(-27.3, -40.4, 0.0, 0.52),
+		# standing on the deck to meet a landing party: the first officer (pads' south side) and the doctor (north)
+		"officer": _d(-24.3, -41.9), "doc": _d(-24.3, -38.9),
+		"officer_cam": _d(-21.2, -40.9, 1.6), "doc_cam": _d(-21.2, -39.6, 1.6),
 	}
 
 
