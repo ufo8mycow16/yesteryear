@@ -188,6 +188,11 @@ func _make_actor(who: String, at: Vector3, facing_deg: float) -> Node3D:
 				if fig != null:
 					set_node.add_child(fig)
 					return fig
+		"thelin":
+			var t := Thelin.make({"solid": false})
+			if t != null:
+				set_node.add_child(t)
+				return t
 		"ichaya":
 			var s := Sehlat.make(set_node, "IChaya", at, facing_deg)
 			if s != null:
