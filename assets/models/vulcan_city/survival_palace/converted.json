@@ -1,0 +1,90 @@
+[
+ {
+  "name": "xi_dsp_army_gate",
+  "source": "XI DSP Army Gate",
+  "tris_in": 2006,
+  "tris": 2006,
+  "size": [
+   9.09,
+   0.81,
+   3.21
+  ]
+ },
+ {
+  "name": "xi_dsp_helipad",
+  "source": "XI DSP Helipad",
+  "tris_in": 16304,
+  "tris": 16304,
+  "size": [
+   71.38,
+   71.15,
+   21.83
+  ]
+ },
+ {
+  "name": "xi_dsp_market_gate",
+  "source": "XI DSP Market Gate",
+  "tris_in": 2550,
+  "tris": 2550,
+  "size": [
+   27.4,
+   11.62,
+   12.69
+  ]
+ },
+ {
+  "name": "xi_dsp_market_wall",
+  "source": "XI DSP Market Wall",
+  "tris_in": 3842,
+  "tris": 3842,
+  "size": [
+   149.82,
+   45.77,
+   10.53
+  ]
+ },
+ {
+  "name": "xi_dsp_wall",
+  "source": "XI DSP Wall",
+  "tris_in": 3692,
+  "tris": 3692,
+  "size": [
+   47.03,
+   18.08,
+   14.62
+  ]
+ },
+ {
+  "name": "xi_dsp_bench",
+  "source": "XI DSP Bench",
+  "tris_in": 352,
+  "tris": 352,
+  "size": [
+   10.48,
+   1.87,
+   0.81
+  ]
+ },
+ {
+  "name": "xi_dsp_bollard",
+  "source": "XI DSP Bollard",
+  "tris_in": 144,
+  "tris": 144,
+  "size": [
+   0.91,
+   0.91,
+   1.42
+  ]
+ },
+ {
+  "name": "xi_dsp_holographic_table",
+  "source": "XI DSP Holographic Table",
+  "tris_in": 46196,
+  "tris": 46196,
+  "size": [
+   8.31,
+   4.1,
+   1.81
+  ]
+ }
+]

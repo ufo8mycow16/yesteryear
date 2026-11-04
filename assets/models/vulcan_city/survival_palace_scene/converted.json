@@ -1,0 +1,46 @@
+[
+ {
+  "name": "xi_dsp_market_ground",
+  "source": "XI DSP Market Ground",
+  "tris_in": 158927,
+  "tris": 120000,
+  "size": [
+   130.17,
+   35.74,
+   0.59
+  ]
+ },
+ {
+  "name": "xi_dsp_palace",
+  "source": "XI DSP Palace",
+  "tris_in": 8202,
+  "tris": 8202,
+  "size": [
+   148.82,
+   54.3,
+   43.32
+  ]
+ },
+ {
+  "name": "xi_dsp_awning",
+  "source": "XI DSP Awning",
+  "tris_in": 62427,
+  "tris": 62427,
+  "size": [
+   81.89,
+   18.34,
+   9.2
+  ]
+ },
+ {
+  "name": "xi_dsp_tube_light_combined",
+  "source": "XI DSP Tube Light Combined",
+  "tris_in": 6672,
+  "tris": 6672,
+  "size": [
+   105.78,
+   29.35,
+   2.36
+  ]
+ }
+]

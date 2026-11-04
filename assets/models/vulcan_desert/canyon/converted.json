@@ -1,0 +1,35 @@
+[
+ {
+  "name": "wc_canyon01",
+  "source": "WC Canyon01",
+  "tris_in": 19927,
+  "tris": 19927,
+  "size": [
+   87.27,
+   88.08,
+   22.2
+  ]
+ },
+ {
+  "name": "wc_canyon02",
+  "source": "WC Canyon02",
+  "tris_in": 10108,
+  "tris": 10108,
+  "size": [
+   89.91,
+   87.74,
+   24.77
+  ]
+ },
+ {
+  "name": "wc_canyon03",
+  "source": "WC Canyon03",
+  "tris_in": 20405,
+  "tris": 20405,
+  "size": [
+   85.13,
+   85.74,
+   30.34
+  ]
+ }
+]

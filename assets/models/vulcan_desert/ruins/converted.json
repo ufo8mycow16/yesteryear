@@ -1,0 +1,57 @@
+[
+ {
+  "name": "ruin_colonnade_curved",
+  "source": "Egyptian Ruins 06 Iray",
+  "tris_in": 45312,
+  "tris": 45312,
+  "size": [
+   15.0,
+   6.31,
+   7.39
+  ]
+ },
+ {
+  "name": "ruin_arch",
+  "source": "Egyptian Ruins 07 Iray",
+  "tris_in": 47094,
+  "tris": 47094,
+  "size": [
+   8.03,
+   5.58,
+   6.47
+  ]
+ },
+ {
+  "name": "ruin_temple_corner",
+  "source": "Egyptian Ruins 08 Iray",
+  "tris_in": 83886,
+  "tris": 59998,
+  "size": [
+   13.22,
+   12.46,
+   7.32
+  ]
+ },
+ {
+  "name": "ruin_colonnade_long",
+  "source": "Egyptian Ruins 09 Iray",
+  "tris_in": 106112,
+  "tris": 60000,
+  "size": [
+   17.86,
+   10.22,
+   7.62
+  ]
+ },
+ {
+  "name": "ruin_gatehouse",
+  "source": "Egyptian Ruins 10 Iray",
+  "tris_in": 140382,
+  "tris": 59998,
+  "size": [
+   11.43,
+   11.21,
+   9.86
+  ]
+ }
+]

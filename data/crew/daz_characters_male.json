@@ -1,0 +1,280 @@
+{
+ "_about": "REV 221: Genesis 8 Male characters in Glen's Daz library (People/Genesis 8 Male/Characters/), rebuilt by tools/crew/dson_character.py --male. See daz_characters_female.json.",
+ "kirk": {
+  "shape": [
+   "3DUK/TOS James T Kirk/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS James T Kirk/Skin.duf"
+  ],
+  "note": "main cast - face kept out of the crew mix",
+  "crew_skin": false
+ },
+ "spock": {
+  "shape": [
+   "3DUK/TOS Mr Spock/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS Mr Spock/Skin.duf"
+  ],
+  "species": "vulcan",
+  "crew_skin": false
+ },
+ "mccoy": {
+  "shape": [
+   "3DUK/TOS McCoy/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS McCoy/Skin.duf"
+  ],
+  "crew_skin": false
+ },
+ "scotty": {
+  "shape": [
+   "3DUK/TOS Scotty/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS Scotty/Skin.duf"
+  ],
+  "crew_skin": false
+ },
+ "sulu": {
+  "shape": [
+   "3DUK/TOS Sulu/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS Sulu/Skin.duf"
+  ],
+  "crew_skin": false
+ },
+ "chekov": {
+  "shape": [
+   "3DUK/TOS Chekov/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS Chekov/Skin.duf"
+  ],
+  "crew_skin": false
+ },
+ "james": {
+  "shape": [
+   "JamesF.duf"
+  ],
+  "skin": [
+   "JamesF.duf"
+  ]
+ },
+ "hans": {
+  "shape": [
+   "StormLux/Hans Capon/!Hans Capon Preset.duf"
+  ],
+  "skin": [
+   "StormLux/Hans Capon/Full Skin Material.duf"
+  ]
+ },
+ "steven": {
+  "shape": [
+   "V Steven For Genesis 8 Male/Character/V - Steven For G8M.duf"
+  ],
+  "skin": [
+   "V Steven For Genesis 8 Male/Character/V - Steven Skin.duf"
+  ],
+  "new": true
+ },
+ "tellarite_m": {
+  "shape": [
+   "Tellarite Male/Character/@ Tellarite For G8M.duf"
+  ],
+  "skin": [
+   "Tellarite Male/Character/@ Tellarite For G8M.duf"
+  ],
+  "species": "tellarite"
+ },
+ "andorian_m": {
+  "shape": [
+   "Andorian For G8M/Andorian G8M.duf"
+  ],
+  "skin": [
+   "Andorian For G8M/Andorian G8M.duf"
+  ],
+  "species": "andorian",
+  "new": true
+ },
+ "agent47": {
+  "lib": "agent47/agent-47-for-genesis-8-male/My DAZ 3D Library",
+  "shape": [
+   "People/Genesis 8 Male/Characters/WildGold/Agent 47/Head Morph.duf",
+   "People/Genesis 8 Male/Characters/WildGold/Agent 47/Body Morph.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/WildGold/Agent 47/Character MAT.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: Hitman fan port - face shape only, partial share (LIKENESS_SHARE)",
+  "new": true
+ },
+ "anatoly": {
+  "lib": "anatoly/IM00068957-01_AnatolyHDforGenesis8Males/Content",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Catalyst/Anatoly HD/Anatoly Apply Shape - Anatoly All.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Catalyst/Anatoly HD/Iray/Anatoly HD Base Materials.duf"
+  ],
+  "note": "REV 325: Daz store, older weathered face",
+  "new": true
+ },
+ "branton": {
+  "lib": "branton/BrantonForGenesis8Male",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Branton/Branton !Complete APPLY.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Branton/Iray/!Skin/!!Branton Full MAT.duf"
+  ],
+  "heritage": "african",
+  "note": "REV 325: Renderosity (Kadaj777); beard/body paint not used",
+  "new": true
+ },
+ "alistair": {
+  "lib": "alistair/AlistairG8",
+  "shape": [
+   "People/zeppers/AlistairG8/MorphsApply/AlistairHeadApply.duf",
+   "People/zeppers/AlistairG8/MorphsApply/AlistairBodyApply.duf"
+  ],
+  "skin": [
+   "People/zeppers/AlistairG8/Mats/AlistairG8Mats.duf"
+  ],
+  "likeness": true,
+  "note": "REV 325: Dragon Age fan port",
+  "new": true
+ },
+ "dion": {
+  "lib": "dion/IM00066851-01_DionforGenesis8Male/Content",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Dion.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Toyen/Dion/Dion All Maps.duf"
+  ],
+  "note": "REV 325: Daz store everyman",
+  "new": true
+ },
+ "hackerman": {
+  "lib": "hackerman/HackerMan-For-G8M-v0.1",
+  "shape": [
+   "People/Genesis 8 Male/Characters/CheckerToo/HackerMan/HackerMan_SubScene.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/CheckerToo/HackerMan/Materials/HackerMan_Mat.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: actor likeness - partial share only; hair used",
+  "new": true
+ },
+ "kwon": {
+  "lib": "kwon/Kwon Tae-Young for Genesis 8 Male",
+  "shape": [
+   "people/PrinceGribble 2026/- Male/Dead by Daylight/Kwon Tae-Young/Kwon Tae-Young G8M - Shape Preset.duf"
+  ],
+  "skin": [
+   "people/PrinceGribble 2026/- Male/Dead by Daylight/Kwon Tae-Young/Kwon Tae-Young G8M - MATS.duf"
+  ],
+  "heritage": "east_asian",
+  "note": "REV 325: Dead by Daylight fan port; skin not used (black hair painted on the scalp)",
+  "new": true,
+  "crew_skin": false
+ },
+ "laurent": {
+  "lib": "laurent/LaurentG8M_299390",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Laurent/Laurent !Complete APPLY.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Laurent/Iray/!Skin/!!Laurent Full MAT.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: youthful face, partial share only",
+  "new": true
+ },
+ "lorenz": {
+  "lib": "lorenz/LorenzG8M_301654",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Lorenz/Lorenz !Complete APPLY.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Kadaj777/Lorenz/Iray/!Skin/!Lorenz Full MAT.duf"
+  ],
+  "heritage": "african",
+  "note": "REV 325: Renderosity (Kadaj777); beard not used",
+  "new": true
+ },
+ "nathanael": {
+  "lib": "nathanael/LK_Nathanael-G8M_289594",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Lexa Kiness/Nathanael/!!Nathanael Head Apply.duf",
+   "People/Genesis 8 Male/Characters/Lexa Kiness/Nathanael/!Nathanael Body Apply.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Lexa Kiness/Nathanael/Materials/Nathanael !Skin.duf"
+  ],
+  "note": "REV 325: Renderosity (Lexa Kiness); painted-brow skin",
+  "new": true
+ },
+ "owen": {
+  "lib": "owen/IM07952578-01_OwenforGenesis8and81Male/Content",
+  "shape": [
+   "People/Merade/The Last of Us/Owen/Character/Owen Shape.duf"
+  ],
+  "skin": [
+   "People/Merade/The Last of Us/Owen/Character/Owen Materials.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: Last of Us fan port - partial share; hair used",
+  "new": true
+ },
+ "drake": {
+  "lib": "drake/Samuel Drake/Samuel Drake/My Library",
+  "shape": [
+   "People/Genesis 8 Male/Characters/Samuel Drake/Samuel Drake.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/Samuel Drake/Samuel Drake.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: Uncharted fan port - skin has a neck tattoo, not used",
+  "new": true
+ },
+ "verso": {
+  "lib": "verso/Verso Dessendre",
+  "shape": [
+   "People/Genesis 8 Male/Characters/StormLux/Verso/Head Apply.duf",
+   "People/Genesis 8 Male/Characters/StormLux/Verso/Body Apply.duf"
+  ],
+  "skin": [
+   "People/Genesis 8 Male/Characters/StormLux/Verso/Material/Verso Clear Material.duf"
+  ],
+  "crew_skin": false,
+  "likeness": true,
+  "note": "REV 325: Expedition 33 fan port - beard painted into both skins, not used",
+  "new": true
+ },
+ "mason": {
+  "lib": "mason/DavidMasonG8",
+  "shape": [
+   "People/zeppers/DavidMasonG8/MorphsApply/DavidMasonHeadApply.duf",
+   "People/zeppers/DavidMasonG8/MorphsApply/DavidMasonBodyApply.duf"
+  ],
+  "skin": [
+   "People/zeppers/DavidMasonG8/Mats/DavidMasonG8Mats.duf"
+  ],
+  "likeness": true,
+  "note": "REV 325: Call of Duty fan port; beard is a separate mesh (not used)",
+  "new": true
+ }
+}

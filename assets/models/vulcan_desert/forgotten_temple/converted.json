@@ -1,0 +1,79 @@
+[
+ {
+  "name": "bridge",
+  "source": "Bridge",
+  "tris_in": 299998,
+  "tris": 60000,
+  "size": [
+   18.17,
+   18.67,
+   3.28
+  ]
+ },
+ {
+  "name": "temple",
+  "source": "Temple",
+  "tris_in": 299997,
+  "tris": 59999,
+  "size": [
+   30.31,
+   28.09,
+   24.05
+  ]
+ },
+ {
+  "name": "rock",
+  "source": "Rock",
+  "tris_in": 299983,
+  "tris": 59999,
+  "size": [
+   32.5,
+   28.7,
+   13.89
+  ]
+ },
+ {
+  "name": "wall",
+  "source": "Wall",
+  "tris_in": 79994,
+  "tris": 60000,
+  "size": [
+   27.93,
+   25.71,
+   6.0
+  ]
+ },
+ {
+  "name": "tree",
+  "source": "Tree",
+  "tris_in": 69988,
+  "tris": 60000,
+  "size": [
+   24.66,
+   24.7,
+   15.62
+  ]
+ },
+ {
+  "name": "singlebarrel",
+  "source": "SingleBarrel",
+  "tris_in": 49987,
+  "tris": 49987,
+  "size": [
+   28.03,
+   28.18,
+   11.17
+  ]
+ },
+ {
+  "name": "threebarrels",
+  "source": "ThreeBarrels",
+  "tris_in": 79983,
+  "tris": 59999,
+  "size": [
+   22.45,
+   21.5,
+   6.93
+  ]
+ }
+]

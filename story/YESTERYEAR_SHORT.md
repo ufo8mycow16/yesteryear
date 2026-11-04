@@ -248,17 +248,15 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 
 ---
 
-## 12. Enterprise: Spock's quarters
+## 12. Enterprise: transporter room
 
-*Spock alone, in uniform again. He opens a small box on his shelf. Inside is a child's carving of a fat, shaggy sehlat. He looks at it for a moment, then sets it out on the shelf where it can be seen.*
-
-*The door chimes. McCOY leans in.*
+*Kirk and Spock shimmer in. DR McCOY is waiting by the console.*
 
 **McCOY:** Spock, you're overdue for your physical. And for the record, I knew who you were the whole time.
 
 **SPOCK:** Of course you did, Doctor.
 
-*McCoy goes. Spock looks at the carving once more and turns out the light.*
+*Kirk steps down. Spock stays on the pad a moment longer, thinking of a fat, shaggy old sehlat.*
 
 **END**
 
@@ -268,4 +266,4 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 Kirk, Spock, McCoy (we have them), Thelin (Andorian, voice idea: the Combs-style Andorian), a Historian, the Guardian (voice), Spock as Selek (robe), Young Spock (child), Sarek, Amanda, I-Chaya (sehlat), the le-matya, the Healer, three Vulcan boys.
 
 ### Locations
-Guardian's planet (built), Enterprise transporter room, briefing room and Spock's quarters (Vulcan Fury sets), Shi'Kahr street, Sarek's courtyard and the healer's door (Vulcan Fury's Shi'Kahr), the desert below the hills (Vulcan Fury's desert).
+Guardian's planet (built), Enterprise transporter room and briefing room (Vulcan Fury's Deck 7), Shi'Kahr street, Sarek's courtyard and the healer's door (Vulcan Fury's Shi'Kahr), the desert below the hills (Vulcan Fury's desert).

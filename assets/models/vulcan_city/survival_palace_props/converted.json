@@ -1,0 +1,200 @@
+[
+ {
+  "name": "xi_dsp_awning_01",
+  "source": "XI DSP Awning 01",
+  "tris_in": 11689,
+  "tris": 11689,
+  "size": [
+   12.51,
+   11.29,
+   4.74
+  ]
+ },
+ {
+  "name": "xi_dsp_awning_02",
+  "source": "XI DSP Awning 02",
+  "tris_in": 5620,
+  "tris": 5620,
+  "size": [
+   14.47,
+   2.19,
+   3.05
+  ]
+ },
+ {
+  "name": "xi_dsp_awning_03",
+  "source": "XI DSP Awning 03",
+  "tris_in": 8060,
+  "tris": 8060,
+  "size": [
+   9.38,
+   11.31,
+   4.93
+  ]
+ },
+ {
+  "name": "xi_dsp_bronze_pot",
+  "source": "XI DSP Bronze Pot",
+  "tris_in": 13568,
+  "tris": 13568,
+  "size": [
+   0.57,
+   0.55,
+   0.94
+  ]
+ },
+ {
+  "name": "xi_dsp_carpet",
+  "source": "XI DSP Carpet",
+  "tris_in": 2312,
+  "tris": 2312,
+  "size": [
+   3.99,
+   8.25,
+   0.05
+  ]
+ },
+ {
+  "name": "xi_dsp_covered_stall",
+  "source": "XI DSP Covered Stall",
+  "tris_in": 19390,
+  "tris": 19390,
+  "size": [
+   3.84,
+   3.03,
+   1.33
+  ]
+ },
+ {
+  "name": "xi_dsp_crates",
+  "source": "XI DSP Crates",
+  "tris_in": 11144,
+  "tris": 11144,
+  "size": [
+   2.78,
+   2.54,
+   1.39
+  ]
+ },
+ {
+  "name": "xi_dsp_globe_light",
+  "source": "XI DSP Globe Light",
+  "tris_in": 2400,
+  "tris": 2400,
+  "size": [
+   0.53,
+   0.42,
+   0.53
+  ]
+ },
+ {
+  "name": "xi_dsp_hanging_pot",
+  "source": "XI DSP Hanging Pot",
+  "tris_in": 8720,
+  "tris": 8720,
+  "size": [
+   0.64,
+   0.63,
+   1.96
+  ]
+ },
+ {
+  "name": "xi_dsp_metal_pot",
+  "source": "XI DSP Metal Pot",
+  "tris_in": 53872,
+  "tris": 25000,
+  "size": [
+   3.36,
+   2.39,
+   1.7
+  ]
+ },
+ {
+  "name": "xi_dsp_pole",
+  "source": "XI DSP Pole",
+  "tris_in": 2454,
+  "tris": 2454,
+  "size": [
+   4.02,
+   2.31,
+   16.64
+  ]
+ },
+ {
+  "name": "xi_dsp_shade",
+  "source": "XI DSP Shade",
+  "tris_in": 19777,
+  "tris": 19777,
+  "size": [
+   12.73,
+   5.79,
+   5.36
+  ]
+ },
+ {
+  "name": "xi_dsp_stall",
+  "source": "XI DSP Stall",
+  "tris_in": 198204,
+  "tris": 25000,
+  "size": [
+   5.73,
+   3.35,
+   2.31
+  ]
+ },
+ {
+  "name": "xi_dsp_stand_pot",
+  "source": "XI DSP Stand Pot",
+  "tris_in": 2160,
+  "tris": 2160,
+  "size": [
+   0.59,
+   0.59,
+   0.8
+  ]
+ },
+ {
+  "name": "xi_dsp_tube_light",
+  "source": "XI DSP Tube Light",
+  "tris_in": 556,
+  "tris": 556,
+  "size": [
+   0.54,
+   1.86,
+   0.27
+  ]
+ },
+ {
+  "name": "xi_dsp_water_pot",
+  "source": "XI DSP Water Pot",
+  "tris_in": 13728,
+  "tris": 13728,
+  "size": [
+   0.59,
+   0.57,
+   0.75
+  ]
+ },
+ {
+  "name": "xi_dsp_window_shade_close",
+  "source": "XI DSP Window Shade Close",
+  "tris_in": 5756,
+  "tris": 5756,
+  "size": [
+   2.08,
+   1.21,
+   1.76
+  ]
+ },
+ {
+  "name": "xi_dsp_window_shade_open",
+  "source": "XI DSP Window Shade Open",
+  "tris_in": 5580,
+  "tris": 5580,
+  "size": [
+   1.56,
+   1.21,
+   1.85
+  ]
+ }
+]

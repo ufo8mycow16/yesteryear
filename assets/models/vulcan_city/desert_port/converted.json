@@ -1,0 +1,68 @@
+[
+ {
+  "name": "xi_dep_bunglow",
+  "source": "XI DEP Bunglow",
+  "tris_in": 55870,
+  "tris": 55870,
+  "size": [
+   9.6,
+   11.55,
+   15.64
+  ]
+ },
+ {
+  "name": "xi_dep_house",
+  "source": "XI DEP House",
+  "tris_in": 105864,
+  "tris": 60000,
+  "size": [
+   11.32,
+   11.06,
+   12.55
+  ]
+ },
+ {
+  "name": "xi_dep_market_building",
+  "source": "XI DEP Market Building",
+  "tris_in": 171718,
+  "tris": 59999,
+  "size": [
+   15.68,
+   19.49,
+   13.86
+  ]
+ },
+ {
+  "name": "xi_dep_port_building",
+  "source": "XI DEP Port Building",
+  "tris_in": 109591,
+  "tris": 60000,
+  "size": [
+   17.1,
+   11.8,
+   14.12
+  ]
+ },
+ {
+  "name": "xi_dep_tower",
+  "source": "XI DEP Tower",
+  "tris_in": 42779,
+  "tris": 42779,
+  "size": [
+   9.83,
+   5.56,
+   21.84
+  ]
+ },
+ {
+  "name": "xi_dep_trade_building",
+  "source": "XI DEP Trade Building",
+  "tris_in": 114173,
+  "tris": 60000,
+  "size": [
+   13.67,
+   13.05,
+   11.79
+  ]
+ }
+]

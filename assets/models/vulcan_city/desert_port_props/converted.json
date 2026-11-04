@@ -1,0 +1,68 @@
+[
+ {
+  "name": "xi_dep_carpet_shop",
+  "source": "XI DEP Carpet Shop",
+  "tris_in": 83967,
+  "tris": 29998,
+  "size": [
+   3.47,
+   5.16,
+   3.56
+  ]
+ },
+ {
+  "name": "xi_dep_crate",
+  "source": "XI DEP Crate",
+  "tris_in": 2952,
+  "tris": 2952,
+  "size": [
+   0.87,
+   0.68,
+   0.39
+  ]
+ },
+ {
+  "name": "xi_dep_street_lamp",
+  "source": "XI DEP Street Lamp",
+  "tris_in": 21936,
+  "tris": 21936,
+  "size": [
+   0.78,
+   0.44,
+   3.02
+  ]
+ },
+ {
+  "name": "xi_dep_tent_shop",
+  "source": "XI DEP Tent Shop",
+  "tris_in": 92343,
+  "tris": 29998,
+  "size": [
+   3.56,
+   2.36,
+   2.72
+  ]
+ },
+ {
+  "name": "xi_dep_tent",
+  "source": "XI DEP Tent",
+  "tris_in": 34842,
+  "tris": 29999,
+  "size": [
+   5.15,
+   5.22,
+   3.55
+  ]
+ },
+ {
+  "name": "xi_dep_wall_lamp",
+  "source": "XI DEP Wall Lamp",
+  "tris_in": 12068,
+  "tris": 12068,
+  "size": [
+   0.29,
+   0.45,
+   0.73
+  ]
+ }
+]

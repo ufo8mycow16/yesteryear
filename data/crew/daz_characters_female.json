@@ -1,0 +1,672 @@
+{
+ "_about": "REV 221: the Genesis 8 Female characters in Glen's Daz library, rebuilt by tools/crew/dson_character.py. Paths are under 'People/Genesis 8 Female/Characters/'. shape: presets whose morph dials make the face (a full-character preset, or head + body apply); skin: presets whose materials give the skin pictures (a full preset counts). sex/notes for the crew kit.",
+ "uhura": {
+  "shape": [
+   "3DUK/TOS Uhura/Head Morph Apply.duf"
+  ],
+  "skin": [
+   "3DUK/TOS Uhura/Skin.duf"
+  ],
+  "note": "the women's base face/body"
+ },
+ "kate": {
+  "shape": [
+   "KK Kate 8.duf"
+  ],
+  "skin": [
+   "KK Kate 8.duf"
+  ]
+ },
+ "austine": {
+  "shape": [
+   "AGD Austine 8.duf"
+  ],
+  "skin": [
+   "AGD Austine 8.duf"
+  ]
+ },
+ "danielle": {
+  "shape": [
+   "Danielle.duf"
+  ],
+  "skin": [
+   "Danielle.duf"
+  ]
+ },
+ "darinka": {
+  "shape": [
+   "Darinka G8F.duf"
+  ],
+  "skin": [
+   "Darinka G8F.duf"
+  ]
+ },
+ "evelyn": {
+  "shape": [
+   "Evelyn.duf"
+  ],
+  "skin": [
+   "Evelyn.duf"
+  ]
+ },
+ "alexia": {
+  "shape": [
+   "I3D Alexia.duf"
+  ],
+  "skin": [
+   "I3D Alexia.duf"
+  ]
+ },
+ "jasmin": {
+  "shape": [
+   "I3D Jasmin.duf"
+  ],
+  "skin": [
+   "I3D Jasmin.duf"
+  ],
+  "new": true
+ },
+ "tatiana_i3d": {
+  "shape": [
+   "I3D Tatiana.duf"
+  ],
+  "skin": [
+   "I3D Tatiana.duf"
+  ],
+  "new": true
+ },
+ "imel": {
+  "shape": [
+   "Imel.duf"
+  ],
+  "skin": [
+   "Imel.duf"
+  ]
+ },
+ "anade": {
+  "shape": [
+   "ISTQ Anade.duf"
+  ],
+  "skin": [
+   "ISTQ Anade.duf"
+  ]
+ },
+ "indie": {
+  "shape": [
+   "JASA Indie.duf"
+  ],
+  "skin": [
+   "JASA Indie.duf"
+  ],
+  "new": true
+ },
+ "octavia": {
+  "shape": [
+   "JASA Octavia.duf"
+  ],
+  "skin": [
+   "JASA Octavia.duf"
+  ],
+  "new": true
+ },
+ "julyanna": {
+  "shape": [
+   "Julyanna.duf"
+  ],
+  "skin": [
+   "Julyanna.duf"
+  ]
+ },
+ "astrid": {
+  "shape": [
+   "KrashWerks - Astrid.duf"
+  ],
+  "skin": [
+   "KrashWerks - Astrid.duf"
+  ]
+ },
+ "celeste": {
+  "shape": [
+   "KrashWerks - Celeste.duf"
+  ],
+  "skin": [
+   "KrashWerks - Celeste.duf"
+  ]
+ },
+ "reyna": {
+  "shape": [
+   "KrashWerks - Reyna.duf"
+  ],
+  "skin": [
+   "KrashWerks - Reyna.duf"
+  ],
+  "new": true
+ },
+ "eiriana": {
+  "shape": [
+   "LK Eiriana - 8.duf"
+  ],
+  "skin": [
+   "LK Eiriana - 8.duf"
+  ],
+  "new": true
+ },
+ "meena": {
+  "shape": [
+   "MeenaG8F.duf"
+  ],
+  "skin": [
+   "MeenaG8F.duf"
+  ]
+ },
+ "nicole": {
+  "shape": [
+   "Nicole.duf"
+  ],
+  "skin": [
+   "Nicole.duf"
+  ]
+ },
+ "tammy": {
+  "shape": [
+   "Tammy G8.duf"
+  ],
+  "skin": [
+   "Tammy G8.duf"
+  ]
+ },
+ "tatiana": {
+  "shape": [
+   "Tatiana.duf"
+  ],
+  "skin": [
+   "Tatiana.duf"
+  ]
+ },
+ "tilly": {
+  "shape": [
+   "Tilly.duf"
+  ],
+  "skin": [
+   "Tilly.duf"
+  ]
+ },
+ "colette": {
+  "shape": [
+   "TX Colette 8.duf"
+  ],
+  "skin": [
+   "TX Colette 8.duf"
+  ]
+ },
+ "joanna": {
+  "shape": [
+   "TX Joanna D 8.duf"
+  ],
+  "skin": [
+   "TX Joanna D 8.duf"
+  ]
+ },
+ "courtney": {
+  "shape": [
+   "TX Salty Courtney 8.duf"
+  ],
+  "skin": [
+   "TX Salty Courtney 8.duf"
+  ]
+ },
+ "amelie": {
+  "shape": [
+   "TX Sweet Amelie 8.duf"
+  ],
+  "skin": [
+   "TX Sweet Amelie 8.duf"
+  ],
+  "new": true
+ },
+ "ashley": {
+  "shape": [
+   "TXC Ashley 8.duf"
+  ],
+  "skin": [
+   "TXC Ashley 8.duf"
+  ]
+ },
+ "alexa": {
+  "shape": [
+   "V3D Alexa.duf"
+  ],
+  "skin": [
+   "V3D Alexa.duf"
+  ]
+ },
+ "lea": {
+  "shape": [
+   "V3D Lea.duf"
+  ],
+  "skin": [
+   "V3D Lea.duf"
+  ]
+ },
+ "ashley_graham": {
+  "shape": [
+   "GC Ashley Graham/Ashley Graham Apply.duf"
+  ],
+  "skin": [
+   "GC Ashley Graham/Skin.duf"
+  ],
+  "new": true
+ },
+ "jessie": {
+  "shape": [
+   "GC Jessie/02 GC Jessie Apply.duf"
+  ],
+  "skin": [
+   "GC Jessie/04 Skin.duf"
+  ],
+  "new": true
+ },
+ "kitana": {
+  "shape": [
+   "MK Kitana/Kitana Apply.duf"
+  ],
+  "skin": [
+   "MK Kitana/Skin.duf"
+  ],
+  "new": true
+ },
+ "tsunade": {
+  "shape": [
+   "Tsunade/Tsunade Apply.duf"
+  ],
+  "skin": [
+   "Tsunade/Tsunade Skin.duf"
+  ],
+  "new": true
+ },
+ "delphine": {
+  "shape": [
+   "VFoxGames/Delphine.duf"
+  ],
+  "skin": [
+   "VFoxGames/Delphine.duf"
+  ]
+ },
+ "hikari": {
+  "shape": [
+   "VFoxGames/Hikari.duf"
+  ],
+  "skin": [
+   "VFoxGames/Hikari.duf"
+  ]
+ },
+ "blake": {
+  "shape": [
+   "-Ennushka-/Blake_G8F/Blake Figure ADD.duf"
+  ],
+  "skin": [
+   "-Ennushka-/Blake_G8F/Blake Figure ADD.duf"
+  ],
+  "new": true
+ },
+ "btari": {
+  "shape": [
+   "Adelia774/Btari Belva Benita/Btari Belva Benita Head Apply.duf",
+   "Adelia774/Btari Belva Benita/Btari Belva Benita Body Apply.duf"
+  ],
+  "skin": [
+   "Adelia774/Btari Belva Benita/Btari Belva Benita (ALL MATERIALS).duf"
+  ]
+ },
+ "liliana": {
+  "shape": [
+   "AE STUDIO/AE Liliana/AE Liliana head apply.duf",
+   "AE STUDIO/AE Liliana/AE Liliana body apply.duf"
+  ],
+  "skin": [
+   "AE STUDIO/AE Liliana/AE Liliana skin.duf"
+  ],
+  "new": true
+ },
+ "leah": {
+  "shape": [
+   "Anagord/Leah G8F/Leah Head Apply.duf",
+   "Anagord/Leah G8F/Leah Body Apply.duf"
+  ],
+  "skin": []
+ },
+ "an53": {
+  "shape": [
+   "Anisa18/AN53/AN53 Head Apply.duf",
+   "Anisa18/AN53/AN53 Body Apply.duf"
+  ],
+  "skin": [
+   "Anisa18/AN53/AN53 MAT.duf"
+  ],
+  "new": true
+ },
+ "lukka": {
+  "shape": [
+   "Avocean/Lukkaew/Lukkaew Head Apply.duf",
+   "Avocean/Lukkaew/Lukkaew Body Apply.duf"
+  ],
+  "skin": [
+   "Avocean/Lukkaew/Lukkaew Materials.duf"
+  ]
+ },
+ "jenifer": {
+  "shape": [
+   "Bonanza3D/Jenifer/Jenifer Full Apply.duf"
+  ],
+  "skin": [
+   "Bonanza3D/Jenifer/Materials/Jenifer Iray Skin.duf"
+  ]
+ },
+ "raquinila": {
+  "shape": [
+   "CaramelStd/Raquinila/Raquinila Head APPL.duf",
+   "CaramelStd/Raquinila/Raquinila Body APPL.duf"
+  ],
+  "skin": [],
+  "new": true
+ },
+ "flower": {
+  "shape": [
+   "DEVANDVAN/Flower/Flower.duf"
+  ],
+  "skin": [
+   "DEVANDVAN/Flower/Flower.duf"
+  ],
+  "new": true
+ },
+ "vox": {
+  "shape": [
+   "DEVANDVAN/Vox/Vox.duf"
+  ],
+  "skin": [
+   "DEVANDVAN/Vox/Vox.duf"
+  ],
+  "new": true
+ },
+ "izuko": {
+  "shape": [
+   "farhantomi/Izuko/Izuko Head Apply.duf",
+   "farhantomi/Izuko/Izuko Body Apply.duf"
+  ],
+  "skin": [],
+  "new": true
+ },
+ "salindry": {
+  "shape": [
+   "Guminho/Salindry/Salindry Head Apply.duf",
+   "Guminho/Salindry/Salindry Body Apply.duf"
+  ],
+  "skin": [],
+  "new": true
+ },
+ "mikari": {
+  "shape": [
+   "Kraton/Mikari/KRT Mikari Head Apply.duf",
+   "Kraton/Mikari/KRT Mikari Body Apply.duf"
+  ],
+  "skin": [
+   "Kraton/Mikari/Mikari Skin.duf"
+  ],
+  "new": true
+ },
+ "gemma": {
+  "shape": [
+   "Lim Vincent/Gemma/Gemma Head APL.duf",
+   "Lim Vincent/Gemma/Gemma Body APL.duf"
+  ],
+  "skin": [
+   "Lim Vincent/Gemma/Gemma Full Mat.duf"
+  ],
+  "new": true
+ },
+ "viviane": {
+  "shape": [
+   "Lintang07/Viviane/Viviane Head Apply.duf",
+   "Lintang07/Viviane/Viviane Body Apply.duf"
+  ],
+  "skin": []
+ },
+ "zoya": {
+  "shape": [
+   "Malimali/Delta force Zoya/Toxik Zoya G8F HD.duf"
+  ],
+  "skin": [
+   "Malimali/Delta force Zoya/Toxik Zoya G8F HD.duf"
+  ],
+  "new": true
+ },
+ "ires": {
+  "shape": [
+   "MarcosGAB/Ires/Ires.duf"
+  ],
+  "skin": [
+   "MarcosGAB/Ires/Ires.duf"
+  ]
+ },
+ "daelyn": {
+  "shape": [
+   "Puetro01/PU Daelyn/PU Daelyn Head Apply.duf",
+   "Puetro01/PU Daelyn/PU Daelyn Body Apply.duf"
+  ],
+  "skin": [],
+  "new": true
+ },
+ "elena": {
+  "shape": [
+   "Resistance 3D/RS3D Elena/00 RS3D Elena Apply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Elena/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "evelyn_rs3d": {
+  "shape": [
+   "Resistance 3D/RS3D Evelyn/00 Evelyn Apply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Evelyn/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "helena": {
+  "shape": [
+   "Resistance 3D/RS3D Helena/00 Helena Apply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Helena/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "laura": {
+  "shape": [
+   "Resistance 3D/RS3D Laura/00 Laura Appply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Laura/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "li_mei": {
+  "shape": [
+   "Resistance 3D/RS3D Li Mei/00 Li Mei Apply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Li Mei/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "shopia": {
+  "shape": [
+   "Resistance 3D/RS3D Shopia/00 RS3D Shopia Apply.duf"
+  ],
+  "skin": [
+   "Resistance 3D/RS3D Shopia/02 Skin.duf"
+  ],
+  "new": true
+ },
+ "cressida": {
+  "shape": [
+   "StormLux/Cressida Bright/Cressida Character Preset.duf"
+  ],
+  "skin": [
+   "StormLux/Cressida Bright/Cressida Character Preset.duf"
+  ]
+ },
+ "hinako": {
+  "shape": [
+   "StormLux/Hinako Shimizu/Hinako Character Preset.duf"
+  ],
+  "skin": [
+   "StormLux/Hinako Shimizu/Hinako Character Preset.duf"
+  ]
+ },
+ "rinko": {
+  "shape": [
+   "StormLux/Rinko Nishida/Rinko Character Preset.duf"
+  ],
+  "skin": [
+   "StormLux/Rinko Nishida/Rinko Character Preset.duf"
+  ]
+ },
+ "sherry": {
+  "shape": [
+   "StormLux/Sherry Birkin/Sherry Birkin Character Preset.duf"
+  ],
+  "skin": [
+   "StormLux/Sherry Birkin/Sherry Birkin Character Preset.duf"
+  ]
+ },
+ "bosah": {
+  "shape": [
+   "TCD/Bosah/Bosah full body morph.duf"
+  ],
+  "skin": [
+   "TCD/Bosah/Bosah skin Iray.duf"
+  ],
+  "new": true
+ },
+ "leanne": {
+  "shape": [
+   "TCD/Leanne C/Leanne C full body morph.duf"
+  ],
+  "skin": [
+   "TCD/Leanne C/Leanne C skin Iray.duf"
+  ],
+  "new": true
+ },
+ "sliva": {
+  "shape": [
+   "TCD/Sliva/Sliva full body morph.duf"
+  ],
+  "skin": [
+   "TCD/Sliva/Sliva skin Iray.duf"
+  ],
+  "new": true
+ },
+ "kamari": {
+  "shape": [
+   "USB/Kamari/Apply Full Character.duf"
+  ],
+  "skin": [
+   "USB/Kamari/Apply Full Character.duf"
+  ],
+  "new": true
+ },
+ "charissa": {
+  "shape": [
+   "VBA Studio/Charissa/Charissa Head Apply.duf",
+   "VBA Studio/Charissa/Charissa Body Apply.duf"
+  ],
+  "skin": [
+   "VBA Studio/Charissa/Charissa Full Mat.duf"
+  ],
+  "new": true
+ },
+ "lieke": {
+  "shape": [
+   "VBA Studio/Lieke/Lieke Character Preset.duf"
+  ],
+  "skin": [
+   "VBA Studio/Lieke/Lieke Full Mat.duf"
+  ]
+ },
+ "khinaya": {
+  "shape": [
+   "yosmanumam17/Khinaya/KHINAYA.duf"
+  ],
+  "skin": [
+   "yosmanumam17/Khinaya/Full Iray Material.duf"
+  ],
+  "new": true
+ },
+ "khyla": {
+  "shape": [
+   "yosmanumam17/Khyla/Khyla Head Apply.duf",
+   "yosmanumam17/Khyla/Khyla Body Apply.duf"
+  ],
+  "skin": [
+   "yosmanumam17/Khyla/Full IRAY Material.duf"
+  ],
+  "new": true
+ },
+ "lina": {
+  "shape": [
+   "zeus3dx/Lina/Lina.duf"
+  ],
+  "skin": [
+   "zeus3dx/Lina/Skin_Preset.duf"
+  ]
+ },
+ "tpol": {
+  "shape": [
+   "T'Pol For Genesis 8 Female/T'pol G8F.duf"
+  ],
+  "skin": [
+   "T'Pol For Genesis 8 Female/T'pol G8F.duf"
+  ],
+  "species": "vulcan"
+ },
+ "valeris": {
+  "shape": [
+   "Lt. Valeris For Genesis 8 Female/Lt. Valeris For G8F.duf"
+  ],
+  "skin": [
+   "Lt. Valeris For Genesis 8 Female/Lt. Valeris For G8F.duf"
+  ],
+  "species": "vulcan",
+  "new": true
+ },
+ "tellarite_f": {
+  "shape": [
+   "Tellarite Female/Character/@ Tellarite For G8F.duf"
+  ],
+  "skin": [
+   "Tellarite Female/Character/@ Tellarite For G8F.duf"
+  ],
+  "species": "tellarite",
+  "new": true
+ },
+ "andorian_f": {
+  "shape": [
+   "Andorian For Genesis 8 Female/Andorian G8F.duf"
+  ],
+  "skin": [
+   "Andorian For Genesis 8 Female/Andorian G8F.duf"
+  ],
+  "species": "andorian"
+ },
+ "arbela": {
+  "shape": [
+   "Lolipop29/Arbela/Arbela Full Apply.duf"
+  ],
+  "skin": [
+   "Lolipop29/Arbela/Arbela Full Apply.duf"
+  ]
+ }
+}

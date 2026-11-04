@@ -1,0 +1,266 @@
+[
+ {
+  "name": "build10a",
+  "source": "Build10A",
+  "tris_in": 91298,
+  "tris": 59999,
+  "size": [
+   17.92,
+   16.19,
+   10.27
+  ]
+ },
+ {
+  "name": "build10adoor1",
+  "source": "Build10ADoor1",
+  "tris_in": 103,
+  "tris": 103,
+  "size": [
+   1.03,
+   0.2,
+   2.16
+  ]
+ },
+ {
+  "name": "build10adoor2",
+  "source": "Build10ADoor2",
+  "tris_in": 103,
+  "tris": 103,
+  "size": [
+   1.03,
+   0.2,
+   2.16
+  ]
+ },
+ {
+  "name": "build10adoor3",
+  "source": "Build10ADoor3",
+  "tris_in": 103,
+  "tris": 103,
+  "size": [
+   1.03,
+   0.2,
+   2.16
+  ]
+ },
+ {
+  "name": "build11a",
+  "source": "Build11A",
+  "tris_in": 85224,
+  "tris": 60000,
+  "size": [
+   23.67,
+   30.75,
+   16.15
+  ]
+ },
+ {
+  "name": "build11adoor1",
+  "source": "Build11ADoor1",
+  "tris_in": 99,
+  "tris": 99,
+  "size": [
+   1.19,
+   0.19,
+   2.45
+  ]
+ },
+ {
+  "name": "build1a",
+  "source": "Build1A",
+  "tris_in": 19304,
+  "tris": 19304,
+  "size": [
+   13.86,
+   8.44,
+   6.26
+  ]
+ },
+ {
+  "name": "build1adoor",
+  "source": "Build1ADoor",
+  "tris_in": 99,
+  "tris": 99,
+  "size": [
+   1.19,
+   0.19,
+   2.45
+  ]
+ },
+ {
+  "name": "build2a",
+  "source": "Build2A",
+  "tris_in": 37104,
+  "tris": 37104,
+  "size": [
+   27.18,
+   26.61,
+   16.71
+  ]
+ },
+ {
+  "name": "build3a",
+  "source": "Build3A",
+  "tris_in": 6779,
+  "tris": 6779,
+  "size": [
+   9.45,
+   9.68,
+   10.32
+  ]
+ },
+ {
+  "name": "build3adoor",
+  "source": "Build3ADoor",
+  "tris_in": 99,
+  "tris": 99,
+  "size": [
+   1.3,
+   0.19,
+   2.39
+  ]
+ },
+ {
+  "name": "build5a",
+  "source": "Build5A",
+  "tris_in": 129451,
+  "tris": 60000,
+  "size": [
+   32.96,
+   17.87,
+   16.22
+  ]
+ },
+ {
+  "name": "build5adoor",
+  "source": "Build5ADoor",
+  "tris_in": 99,
+  "tris": 99,
+  "size": [
+   1.38,
+   0.2,
+   2.39
+  ]
+ },
+ {
+  "name": "build6a",
+  "source": "Build6A",
+  "tris_in": 18045,
+  "tris": 18045,
+  "size": [
+   32.27,
+   30.14,
+   16.0
+  ]
+ },
+ {
+  "name": "build6adoor1",
+  "source": "Build6ADoor1",
+  "tris_in": 103,
+  "tris": 103,
+  "size": [
+   1.03,
+   0.2,
+   2.62
+  ]
+ },
+ {
+  "name": "build6adoor2",
+  "source": "Build6ADoor2",
+  "tris_in": 103,
+  "tris": 103,
+  "size": [
+   1.03,
+   0.2,
+   2.62
+  ]
+ },
+ {
+  "name": "build7a",
+  "source": "Build7A",
+  "tris_in": 95504,
+  "tris": 59999,
+  "size": [
+   13.96,
+   18.06,
+   32.49
+  ]
+ },
+ {
+  "name": "build7adoor1",
+  "source": "Build7ADoor1",
+  "tris_in": 99,
+  "tris": 99,
+  "size": [
+   1.11,
+   0.16,
+   2.23
+  ]
+ },
+ {
+  "name": "build9a",
+  "source": "Build9A",
+  "tris_in": 67534,
+  "tris": 60000,
+  "size": [
+   15.33,
+   23.03,
+   19.38
+  ]
+ },
+ {
+  "name": "stall3",
+  "source": "Stall3",
+  "tris_in": 42629,
+  "tris": 42629,
+  "size": [
+   1.66,
+   1.74,
+   2.22
+  ]
+ },
+ {
+  "name": "stall4full",
+  "source": "Stall4Full",
+  "tris_in": 83276,
+  "tris": 60000,
+  "size": [
+   2.03,
+   1.12,
+   2.32
+  ]
+ },
+ {
+  "name": "tent1",
+  "source": "Tent1",
+  "tris_in": 36340,
+  "tris": 36340,
+  "size": [
+   3.07,
+   2.6,
+   2.61
+  ]
+ },
+ {
+  "name": "tent2",
+  "source": "Tent2",
+  "tris_in": 6088,
+  "tris": 6088,
+  "size": [
+   5.71,
+   5.4,
+   3.03
+  ]
+ },
+ {
+  "name": "broom",
+  "source": "broom",
+  "tris_in": 12560,
+  "tris": 12560,
+  "size": [
+   0.44,
+   0.16,
+   1.84
+  ]
+ }
+]
