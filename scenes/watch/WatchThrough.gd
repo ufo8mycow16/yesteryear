@@ -13,6 +13,9 @@ const Marker := preload("res://scenes/watch/Marker.gd")
 const Beam := preload("res://scenes/watch/Beam.gd")
 const Story := preload("res://scenes/watch/Story.gd")
 const Sets := preload("res://scenes/watch/Sets.gd")
+# the creature scripts have no global class name - reach them through their files
+const Sehlat := preload("res://core/creatures/Sehlat.gd")
+const LeMatya := preload("res://core/creatures/LeMatya.gd")
 
 ## Display names for subtitles and markers
 const NAMES := {
@@ -143,6 +146,10 @@ func _beat(b: Array) -> void:
 			var s: Node3D = actors.get("ichaya")
 			if s != null and s.has_method(String(b[1])):
 				s.call(String(b[1]))
+		"lematya":     # ["lematya", method, args...]  (play_clip "pounce"/"fight"/"wary", roar, snarl, sleep_now)
+			var lm: Node3D = actors.get("lematya")
+			if lm != null and lm.has_method(String(b[1])):
+				lm.callv(String(b[1]), b.slice(2))
 		"wait":
 			await get_tree().create_timer(float(b[1])).timeout
 
@@ -193,6 +200,10 @@ func _make_actor(who: String, at: Vector3, facing_deg: float) -> Node3D:
 			if t != null:
 				set_node.add_child(t)
 				return t
+		"lematya":
+			var lm := LeMatya.make(set_node, "LeMatya", at, facing_deg)
+			if lm != null:
+				return lm
 		"ichaya":
 			var s := Sehlat.make(set_node, "IChaya", at, facing_deg)
 			if s != null:
