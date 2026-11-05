@@ -208,7 +208,16 @@ Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in V
 
 **SPOCK:** No. Wanting to is not wrong. Choosing what you do with it is what makes you who you are.
 
-**[PLAY LATER: this whole scene as a playable choice, with every way of saving I-Chaya tried and failing.]**
+**[PLAYABLE NOW - THE CHOICE]** Before the boy answers, the player chooses for Selek:
+
+1. *Say nothing. This choice belongs to the boy.* The scene plays as written above.
+2. *Step in. Use the antitoxin and save I-Chaya.* Selek's Starfleet hypospray saves the sehlat. The healer asks who he is ("A cousin. Nothing more."). The boy says quietly: "You decided for me."
+
+**If I-Chaya is saved:**
+
+- **Sarek's house, morning (changed).** The boy tells Sarek his cousin saved I-Chaya. Asked what he decided in the desert, he admits: nothing, it was decided for him. Sarek: "Then the desert has not taught you anything yet." To Selek: "You meant him kindness, cousin. But a Vulcan learns to carry his own choices. Today my son carried none." Selek: "No. He did not."
+- **The Guardian, night (broken).** Spock returns. "The boy lives. So does I-Chaya." Kirk calls the ship, and COMMANDER THELIN answers: their records show only one person on the planet. Spock understands: the boy never made the choice himself, never learned that he could, and so the Spock who chose Starfleet over his father's wishes was never made. THE GUARDIAN: "A past was mended, and a future undone. A choice was taken from the one who needed to make it." Kirk: "Then you know what you have to do." Spock: "Yes. I have to let him lose his friend." He steps back through.
+- **The same dawn, again.** This time the medical kit stays on his belt: "I have seen where that road leads." Only the first choice is offered, and the story goes on as written. At the Guardian, Spock adds: "The first time, I saved him. This time I let the boy choose. It was the harder thing to do." Kirk: "It usually is."
 
 ---
 

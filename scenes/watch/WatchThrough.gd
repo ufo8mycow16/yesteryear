@@ -4,6 +4,8 @@ extends Node3D
 ## Each scene builds its set, puts the cast on their marks, then runs its beats in order: camera moves,
 ## lines (subtitles), walks, beams and pauses. Between scenes the screen fades to black and the old set is freed.
 ## Space / Enter skips the current line. Esc leaves.
+## Choices (["choice", ...]) stop and wait for the player; they set story flags, and scenes and beats can depend
+## on those flags (a scene's "when", the "if" beat) or jump back to an earlier scene ("goto", by the scene's "id").
 ##
 ## Cast with a model (Vulcan Fury's Daz figures and the sehlat) are real; everyone else is a labelled marker
 ## (Marker.gd) until they have one. Swap a marker for a model in _make_actor().
@@ -28,13 +30,15 @@ const NAMES := {
 const HEIGHTS := {"young_spock": 1.3, "boy1": 1.35, "boy2": 1.4, "boy3": 1.3, "lematya": 1.0, "amanda": 1.68,
 	"sarek": 1.88, "healer": 1.7, "thelin": 1.85, "historian": 1.75}
 
-var overlay: CanvasLayer
+var overlay: Overlay           # the preloaded script, so its own functions (say, choose...) are known
 var cam: Camera3D
 var set_node: Node3D = null
 var actors := {}
 var _look := Vector3.ZERO
 var _skip := false
 var _cam_tween: Tween = null
+var flags := {}             # story flags set by choices: name -> true
+var _goto := ""             # a scene id to jump to once the current beat is done
 
 
 func _ready() -> void:
@@ -63,8 +67,20 @@ func _process(_delta: float) -> void:
 
 
 func _run() -> void:
-	for scene in Story.SCENES:
+	var scenes: Array = Story.SCENES
+	var i := 0
+	while i < scenes.size():
+		var scene: Dictionary = scenes[i]
+		i += 1
+		if not _ok(String(scene.get("when", ""))):
+			continue
 		await _play_scene(scene)
+		if _goto != "":
+			for j in scenes.size():
+				if String((scenes[j] as Dictionary).get("id", "")) == _goto:
+					i = j
+					break
+			_goto = ""
 	overlay.clear_line()
 	await overlay.fade_to(1.0, 1.5)
 	await overlay.title("STAR TREK\nYESTERYEAR\n\nThird Moon Interactive", 5.0)
@@ -89,9 +105,24 @@ func _play_scene(scene: Dictionary) -> void:
 	if scene.has("title"):
 		await overlay.title(String(scene["title"]), 3.0)
 	await overlay.fade_to(0.0, 1.0)
-	for beat in scene.get("beats", []):
-		await _beat(beat)
+	await _beats(scene.get("beats", []))
 	await get_tree().create_timer(0.8).timeout
+
+
+func _beats(list: Array) -> void:
+	for beat in list:
+		if _goto != "":
+			return
+		await _beat(beat)
+
+
+## A flag test: "" is always true, "name" needs the flag, "!name" needs it unset.
+func _ok(cond: String) -> bool:
+	if cond == "":
+		return true
+	if cond.begins_with("!"):
+		return not flags.has(cond.substr(1))
+	return flags.has(cond)
 
 
 func _beat(b: Array) -> void:
@@ -152,6 +183,33 @@ func _beat(b: Array) -> void:
 				lm.callv(String(b[1]), b.slice(2))
 		"wait":
 			await get_tree().create_timer(float(b[1])).timeout
+		"choice":      # ["choice", prompt, [{"text", "set"?, "when"?}, ...]] - waits for the player
+			var opts: Array = []
+			var texts := PackedStringArray()
+			for o in b[2]:
+				if _ok(String((o as Dictionary).get("when", ""))):
+					opts.append(o)
+					texts.append(String(o["text"]))
+			if opts.is_empty():
+				return
+			var pick: int = await overlay.choose(String(b[1]), texts)
+			var chosen: Dictionary = opts[pick]
+			if chosen.has("set"):
+				flags[String(chosen["set"])] = true
+		"if":          # ["if", condition, [beats if true], [beats if false]?]
+			if _ok(String(b[1])):
+				await _beats(b[2])
+			elif b.size() > 3:
+				await _beats(b[3])
+		"set":         # ["set", flag]
+			flags[String(b[1])] = true
+		"clear":       # ["clear", flag]
+			flags.erase(String(b[1]))
+		"goto":        # ["goto", scene id] - ends this scene and carries on from that one
+			_goto = String(b[1])
+		"title":       # ["title", text, seconds]
+			overlay.clear_line()
+			await overlay.title(String(b[1]), float(b[2]) if b.size() > 2 else 3.0)
 
 
 func _say(who: String, line: String) -> void:

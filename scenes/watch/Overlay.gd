@@ -8,6 +8,8 @@ var _bottom: ColorRect
 var _sub: RichTextLabel
 var _title: Label
 var _fade: ColorRect
+var _root: Control
+signal _picked(index: int)
 
 
 func _ready() -> void:
@@ -16,6 +18,7 @@ func _ready() -> void:
 	root.set_anchors_preset(Control.PRESET_FULL_RECT)
 	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(root)
+	_root = root
 	_top = _bar(root, true)
 	_bottom = _bar(root, false)
 	_sub = RichTextLabel.new()
@@ -86,3 +89,57 @@ func title(text: String, seconds: float) -> void:
 	t.tween_interval(maxf(seconds - 1.6, 0.4))
 	t.tween_property(_title, "modulate:a", 0.0, 0.8)
 	await t.finished
+
+
+## A choice: the question above a column of buttons in the middle of the screen. Click one, or press its number
+## (or move with the arrow keys and press Space/Enter). Returns the index picked.
+func choose(prompt: String, options: PackedStringArray) -> int:
+	clear_line()
+	var box := VBoxContainer.new()
+	box.anchor_left = 0.2
+	box.anchor_right = 0.8
+	box.anchor_top = 0.42
+	box.anchor_bottom = 0.86
+	box.alignment = BoxContainer.ALIGNMENT_END
+	box.add_theme_constant_override("separation", 10)
+	_root.add_child(box)
+	if prompt != "":
+		var q := Label.new()
+		q.text = prompt
+		q.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		q.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		q.add_theme_font_size_override("font_size", 28)
+		q.add_theme_color_override("font_color", Color(0.98, 0.86, 0.45))
+		q.add_theme_constant_override("outline_size", 6)
+		q.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.9))
+		box.add_child(q)
+	var buttons: Array[Button] = []
+	for i in options.size():
+		var b := Button.new()
+		b.text = "%d.  %s" % [i + 1, options[i]]
+		b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
+		b.add_theme_font_size_override("font_size", 24)
+		b.custom_minimum_size = Vector2(0, 52)
+		b.pressed.connect(func() -> void: _picked.emit(i))
+		box.add_child(b)
+		buttons.append(b)
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	buttons[0].grab_focus()
+	_keys = options.size()
+	var pick: int = await _picked
+	_keys = 0
+	box.queue_free()
+	return pick
+
+
+var _keys := 0
+
+
+func _input(event: InputEvent) -> void:
+	if _keys <= 0 or not (event is InputEventKey) or not event.is_pressed() or event.is_echo():
+		return
+	var k := (event as InputEventKey).keycode
+	if k >= KEY_1 and k < KEY_1 + _keys:
+		get_viewport().set_input_as_handled()
+		_picked.emit(int(k - KEY_1))
