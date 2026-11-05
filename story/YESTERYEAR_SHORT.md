@@ -4,6 +4,8 @@ Third Moon Interactive's own telling of the story. It has the same plot as the e
 
 Running time: about 6 to 8 minutes. Widescreen, subtitles at the bottom, as in Vulcan Fury.
 
+Plays like a visual novel: each line waits for Space, Enter or a click (the first press finishes the typing, the next carries on). A switches auto-play on and off, and Esc quits. Each place has its own background sound.
+
 ---
 
 ## 1. The Guardian's planet: dusk

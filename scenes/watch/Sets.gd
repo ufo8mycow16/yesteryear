@@ -245,7 +245,7 @@ static func _city_spots(key: String) -> Dictionary:
 				"boy": Vector3(2.5, 0, -1.5), "boy_push": Vector3(3.0, 0, -1.8), "boy_home": Vector3(9, 0, 5),
 				"bully1": Vector3(3.6, 0, -2.6), "bully2": Vector3(1.8, 0, -2.9), "bully3": Vector3(3.2, 0, -0.4),
 				"bully1_back": Vector3(4.4, 0, -3.3), "run1": Vector3(12, 0, -8), "run2": Vector3(11, 0, -10), "run3": Vector3(13, 0, -6),
-				"sarek": Vector3(4.6, 0, 1.6),
+				"sarek": Vector3(4.6, 0, 1.6), "selek_meet": Vector3(1.5, 0, 1.9),
 				"street_cam": Vector3(-11, 2.2, 9), "street_cam2": Vector3(-5.5, 1.8, 5.5), "boys_cam": Vector3(-0.5, 1.4, 1.2),
 				"sarek_cam": Vector3(1.0, 1.65, 2.6), "selek_cam": Vector3(1.8, 1.65, 0.6),
 			}
@@ -269,6 +269,7 @@ static func _city_spots(key: String) -> Dictionary:
 				"centre": Vector3(0, 0, 2),
 				"boy_door": Vector3(0, 0, 1.3), "healer_door": Vector3(0, 0, -0.1),
 				"door_cam_h": Vector3(1.6, 1.4, 3.4), "healer_cam": Vector3(-0.6, 1.3, 2.6),
+				"boy_side_cam": Vector3(1.5, 1.2, 0.4),
 			}
 	return {}
 
@@ -280,7 +281,10 @@ static func _desert_spots() -> Dictionary:
 		"boy_start": Vector3(-6, 0, -10), "boy_mid": Vector3(0, 0, 0), "boy_end": Vector3(3.4, 0, 7.0),
 		"boy_runs": Vector3(-25, 0, -22), "sehlat_start": Vector3(1.4, 0, 5.0),
 		"selek_far": Vector3(-14, 0, -18), "selek_near": Vector3(0, 0, 3), "lematya": Vector3(6.2, 0, 10.5),
-		"lematya_down": Vector3(5.8, 0, 9.8), "lematya_side": Vector3(5.0, 0, 8.8), "by_ichaya": Vector3(0, 0, 5.4),
+		"lematya_down": Vector3(5.8, 0, 9.8), "lematya_side": Vector3(7.1, 0, 9.5), "by_ichaya": Vector3(0, 0, 5.4),
+		# I-Chaya trailing the boy, then throwing himself at the le-matya; Selek coming back to the boy after
+		"sehlat_behind": Vector3(-8.5, 0, -13.5), "sehlat_mid": Vector3(-2.2, 0, -3.6), "sehlat_fight": Vector3(4.9, 0, 9.0),
+		"selek_talk": Vector3(4.5, 0, 8.1),
 		"boy_dawn": Vector3(2.6, 0, 3.8), "healer_dawn": Vector3(3.6, 0, 6.6), "boy_by_ichaya": Vector3(2.2, 0, 5.4),
 		"desert_cam": Vector3(-12, 2.0, -4), "desert_cam2": Vector3(-5, 1.8, 4), "fight_cam": Vector3(0.5, 1.6, 2.0),
 		"two_desert_cam": Vector3(-1.0, 1.6, 9.6), "sehlat_cam": Vector3(-2.2, 1.4, 7.8),
