@@ -1,0 +1,3963 @@
+{
+"figure": "Genesis8Female",
+"points": 16556,
+"units": "cm",
+"bones": {
+"abdomen2": {
+"name": "abdomenUpper",
+"order": "YZX",
+"orient": [
+0.0,
+0.0,
+0.0
+]
+},
+"abdomenLower": {
+"name": "abdomenLower",
+"order": "YZX",
+"orient": [
+0.0,
+0.0,
+0.0
+]
+},
+"chest": {
+"name": "chestLower",
+"order": "YZX",
+"orient": [
+0.0,
+0.0,
+0.0
+]
+},
+"head": {
+"name": "head",
+"order": "YZX",
+"orient": [
+0.6970934,
+0.0,
+0.0
+]
+},
+"lCollar": {
+"name": "lCollar",
+"order": "XYZ",
+"orient": [
+0.05370409,
+3.510381,
+1.752411
+]
+},
+"lFoot": {
+"name": "lFoot",
+"order": "ZYX",
+"orient": [
+22.12137,
+15.45568,
+9.103889
+]
+},
+"lForeArm": {
+"name": "lForearmBend",
+"order": "XZY",
+"orient": [
+1.176365,
+-16.39288,
+-44.76654
+]
+},
+"lHand": {
+"name": "lHand",
+"order": "XYZ",
+"orient": [
+1.205137,
+-0.5642815,
+-44.11588
+]
+},
+"lIndex1": {
+"name": "lIndex1",
+"order": "XYZ",
+"orient": [
+3.362149,
+-8.981328,
+-50.9436
+]
+},
+"lIndex2": {
+"name": "lIndex2",
+"order": "XYZ",
+"orient": [
+1.463033,
+-5.164292,
+-51.22198
+]
+},
+"lIndex3": {
+"name": "lIndex3",
+"order": "XYZ",
+"orient": [
+1.459023,
+-4.310821,
+-52.4839
+]
+},
+"lMid1": {
+"name": "lMid1",
+"order": "XYZ",
+"orient": [
+1.823729,
+-3.672242,
+-47.74039
+]
+},
+"lMid2": {
+"name": "lMid2",
+"order": "XYZ",
+"orient": [
+1.473883,
+-3.869982,
+-53.94618
+]
+},
+"lMid3": {
+"name": "lMid3",
+"order": "XYZ",
+"orient": [
+1.202765,
+-0.2765329,
+-47.01905
+]
+},
+"lPinky1": {
+"name": "lPinky1",
+"order": "XYZ",
+"orient": [
+2.035041,
+6.375912,
+-49.25728
+]
+},
+"lPinky2": {
+"name": "lPinky2",
+"order": "XYZ",
+"orient": [
+-1.083208,
+6.718356,
+-48.80098
+]
+},
+"lPinky3": {
+"name": "lPinky3",
+"order": "XYZ",
+"orient": [
+-2.930455,
+6.729253,
+-49.03785
+]
+},
+"lRing1": {
+"name": "lRing1",
+"order": "XYZ",
+"orient": [
+1.701754,
+3.207179,
+-49.9608
+]
+},
+"lRing2": {
+"name": "lRing2",
+"order": "XYZ",
+"orient": [
+3.522953,
+2.456977,
+-50.2989
+]
+},
+"lRing3": {
+"name": "lRing3",
+"order": "XYZ",
+"orient": [
+1.11563,
+1.675707,
+-49.83128
+]
+},
+"lShin": {
+"name": "lShin",
+"order": "YZX",
+"orient": [
+5.150357,
+9.729668,
+8.541517
+]
+},
+"lShldr": {
+"name": "lShldrBend",
+"order": "XYZ",
+"orient": [
+1.228037,
+-1.153136,
+-48.60357
+]
+},
+"lThigh": {
+"name": "lThighBend",
+"order": "YZX",
+"orient": [
+1.163925,
+4.855467,
+7.945159
+]
+},
+"lThumb1": {
+"name": "lThumb1",
+"order": "XZY",
+"orient": [
+-15.36745,
+-53.36727,
+-65.10932
+]
+},
+"lThumb2": {
+"name": "lThumb2",
+"order": "XZY",
+"orient": [
+-20.63464,
+-31.94603,
+-70.01147
+]
+},
+"lThumb3": {
+"name": "lThumb3",
+"order": "XZY",
+"orient": [
+-27.9612,
+-43.32954,
+-64.32572
+]
+},
+"lWrist": {
+"name": "lForearmTwist",
+"order": "XZY",
+"orient": [
+1.162587,
+-16.31953,
+-44.66678
+]
+},
+"neck": {
+"name": "neckLower",
+"order": "YZX",
+"orient": [
+8.49,
+0.0,
+0.0
+]
+},
+"neck_2": {
+"name": "neckUpper",
+"order": "YZX",
+"orient": [
+8.49,
+0.0,
+0.0
+]
+},
+"pelvis": {
+"name": "pelvis",
+"order": "YZX",
+"orient": [
+0.0,
+0.0,
+0.0
+]
+},
+"rCollar": {
+"name": "rCollar",
+"order": "XYZ",
+"orient": [
+0.05370408,
+-3.510381,
+-1.752411
+]
+},
+"rFoot": {
+"name": "rFoot",
+"order": "ZYX",
+"orient": [
+22.12137,
+-15.45568,
+-9.103889
+]
+},
+"rForeArm": {
+"name": "rForearmBend",
+"order": "XZY",
+"orient": [
+1.176365,
+16.39288,
+44.76654
+]
+},
+"rHand": {
+"name": "rHand",
+"order": "XYZ",
+"orient": [
+1.205137,
+0.5642815,
+44.11588
+]
+},
+"rIndex1": {
+"name": "rIndex1",
+"order": "XYZ",
+"orient": [
+3.36215,
+8.981328,
+50.9436
+]
+},
+"rIndex2": {
+"name": "rIndex2",
+"order": "XYZ",
+"orient": [
+1.463033,
+5.164291,
+51.22198
+]
+},
+"rIndex3": {
+"name": "rIndex3",
+"order": "XYZ",
+"orient": [
+1.459023,
+4.310821,
+52.48389
+]
+},
+"rMid1": {
+"name": "rMid1",
+"order": "XYZ",
+"orient": [
+1.823729,
+3.672241,
+47.74039
+]
+},
+"rMid2": {
+"name": "rMid2",
+"order": "XYZ",
+"orient": [
+1.473883,
+3.869982,
+53.94618
+]
+},
+"rMid3": {
+"name": "rMid3",
+"order": "XYZ",
+"orient": [
+1.202765,
+0.2765329,
+47.01905
+]
+},
+"rPinky1": {
+"name": "rPinky1",
+"order": "XYZ",
+"orient": [
+2.035041,
+-6.375912,
+49.25727
+]
+},
+"rPinky2": {
+"name": "rPinky2",
+"order": "XYZ",
+"orient": [
+-1.083208,
+-6.718356,
+48.80098
+]
+},
+"rPinky3": {
+"name": "rPinky3",
+"order": "XYZ",
+"orient": [
+-2.930455,
+-6.729253,
+49.03785
+]
+},
+"rRing1": {
+"name": "rRing1",
+"order": "XYZ",
+"orient": [
+1.701754,
+-3.207179,
+49.9608
+]
+},
+"rRing2": {
+"name": "rRing2",
+"order": "XYZ",
+"orient": [
+3.522953,
+-2.456977,
+50.2989
+]
+},
+"rRing3": {
+"name": "rRing3",
+"order": "XYZ",
+"orient": [
+1.11563,
+-1.675707,
+49.83128
+]
+},
+"rShin": {
+"name": "rShin",
+"order": "YZX",
+"orient": [
+5.150356,
+-9.729667,
+-8.541515
+]
+},
+"rShldr": {
+"name": "rShldrBend",
+"order": "XYZ",
+"orient": [
+1.228037,
+1.153136,
+48.60357
+]
+},
+"rThigh": {
+"name": "rThighBend",
+"order": "YZX",
+"orient": [
+1.163925,
+-4.855467,
+-7.945159
+]
+},
+"rThumb1": {
+"name": "rThumb1",
+"order": "XZY",
+"orient": [
+-15.36745,
+53.36728,
+65.10932
+]
+},
+"rThumb2": {
+"name": "rThumb2",
+"order": "XZY",
+"orient": [
+-20.63464,
+31.94603,
+70.01146
+]
+},
+"rThumb3": {
+"name": "rThumb3",
+"order": "XZY",
+"orient": [
+-27.96119,
+43.32954,
+64.32572
+]
+},
+"rWrist": {
+"name": "rForearmTwist",
+"order": "XZY",
+"orient": [
+1.162587,
+16.31953,
+44.66677
+]
+}
+},
+"shapes": [
+{
+"id": "pJCMAbdomen2Fwd_40",
+"name": "pJCMAbdomen2Fwd_40",
+"offset": 0,
+"count": 774
+},
+{
+"id": "pJCMAbdomen2Side_24_L",
+"name": "pJCMAbdomen2Side_24_L",
+"offset": 12384,
+"count": 647
+},
+{
+"id": "pJCMAbdomen2Side_24_R",
+"name": "pJCMAbdomen2Side_24_R",
+"offset": 22736,
+"count": 654
+},
+{
+"id": "pJCMAbdomenFwd_35",
+"name": "pJCMAbdomenFwd_35",
+"offset": 33200,
+"count": 1074
+},
+{
+"id": "pJCMChestFwd_35",
+"name": "pJCMChestFwd_35",
+"offset": 50384,
+"count": 426
+},
+{
+"id": "pJCMChestSide_24_L",
+"name": "pJCMChestSide_20_L",
+"offset": 57200,
+"count": 806
+},
+{
+"id": "pJCMChestSide_24_R",
+"name": "pJCMChestSide_20_R",
+"offset": 70096,
+"count": 806
+},
+{
+"id": "pJCMCollarTwist_n30_L",
+"name": "pJCMCollarTwist_n30_L",
+"offset": 82992,
+"count": 653
+},
+{
+"id": "pJCMCollarTwist_n30_R",
+"name": "pJCMCollarTwist_n30_R",
+"offset": 93440,
+"count": 653
+},
+{
+"id": "pJCMCollarTwist_p30_L",
+"name": "pJCMCollarTwist_p30_L",
+"offset": 103888,
+"count": 686
+},
+{
+"id": "pJCMCollarTwist_p30_R",
+"name": "pJCMCollarTwist_p30_R",
+"offset": 114864,
+"count": 686
+},
+{
+"id": "pJCMCollarUp_55_L",
+"name": "pJCMCollarUp_55_L",
+"offset": 125840,
+"count": 959
+},
+{
+"id": "pJCMCollarUp_55_R",
+"name": "pJCMCollarUp_55_R",
+"offset": 141184,
+"count": 959
+},
+{
+"id": "pJCMFootDwn_75_L",
+"name": "pJCMFootDwn_75_L",
+"offset": 156528,
+"count": 353
+},
+{
+"id": "pJCMFootDwn_75_R",
+"name": "pJCMFootDwn_75_R",
+"offset": 162176,
+"count": 353
+},
+{
+"id": "pJCMHDFootUp_40_L",
+"name": "pJCMFootUp_40_L",
+"offset": 167824,
+"count": 372
+},
+{
+"id": "pJCMHDFootUp_40_R",
+"name": "pJCMFootUp_40_R",
+"offset": 173776,
+"count": 372
+},
+{
+"id": "pJCMForeArmFwdL",
+"name": "pJCMForeArmFwd_135_L",
+"offset": 179728,
+"count": 448
+},
+{
+"id": "pJCMForeArmFwdR",
+"name": "pJCMForeArmFwd_135_R",
+"offset": 186896,
+"count": 446
+},
+{
+"id": "pJCMForeArmFwd_75_L",
+"name": "pJCMForeArmFwd_75_L",
+"offset": 194032,
+"count": 449
+},
+{
+"id": "pJCMForeArmFwd_75_R",
+"name": "pJCMForeArmFwd_75_R",
+"offset": 201216,
+"count": 449
+},
+{
+"id": "pJCMHandDwn_70_L",
+"name": "pJCMHandDwn_70_L",
+"offset": 208400,
+"count": 272
+},
+{
+"id": "pJCMHandDwn_70_R",
+"name": "pJCMHandDwn_70_R",
+"offset": 212752,
+"count": 272
+},
+{
+"id": "pJCMHandUp_80_L",
+"name": "pJCMHandUp_80_L",
+"offset": 217104,
+"count": 325
+},
+{
+"id": "pJCMHandUp_80_R",
+"name": "pJCMHandUp_80_R",
+"offset": 222304,
+"count": 324
+},
+{
+"id": "pJCMHeadBack_27",
+"name": "pJCMHeadBack_27",
+"offset": 227488,
+"count": 255
+},
+{
+"id": "pJCMHeadFwd_25",
+"name": "pJCMHeadFwd_25",
+"offset": 231568,
+"count": 217
+},
+{
+"id": "pJCMIndex1Dwn_90_L",
+"name": "pJCMIndex1Dwn_90_L",
+"offset": 235040,
+"count": 121
+},
+{
+"id": "pJCMIndex1Dwn_90_R",
+"name": "pJCMIndex1Dwn_90_R",
+"offset": 236976,
+"count": 121
+},
+{
+"id": "pJCMIndex2Dwn_105_L",
+"name": "pJCMIndex2Dwn_105_L",
+"offset": 238912,
+"count": 72
+},
+{
+"id": "pJCMIndex2Dwn_105_R",
+"name": "pJCMIndex2Dwn_105_R",
+"offset": 240064,
+"count": 72
+},
+{
+"id": "pJCMIndex3Dwn_90_L",
+"name": "pJCMIndex3Dwn_90_L",
+"offset": 241216,
+"count": 48
+},
+{
+"id": "pJCMIndex3Dwn_90_R",
+"name": "pJCMIndex3Dwn_90_R",
+"offset": 241984,
+"count": 48
+},
+{
+"id": "pJCMMid1Dwn_95_L",
+"name": "pJCMMid1Dwn_95_L",
+"offset": 242752,
+"count": 99
+},
+{
+"id": "pJCMMid1Dwn_95_R",
+"name": "pJCMMid1Dwn_95_R",
+"offset": 244336,
+"count": 99
+},
+{
+"id": "pJCMMid2Dwn_105_L",
+"name": "pJCMMid2Dwn_105_L",
+"offset": 245920,
+"count": 77
+},
+{
+"id": "pJCMMid2Dwn_105_R",
+"name": "pJCMMid2Dwn_105_R",
+"offset": 247152,
+"count": 77
+},
+{
+"id": "pJCMMid3Dwn_90_L",
+"name": "pJCMMid3Dwn_90_L",
+"offset": 248384,
+"count": 51
+},
+{
+"id": "pJCMMid3Dwn_90_R",
+"name": "pJCMMid3Dwn_90_R",
+"offset": 249200,
+"count": 51
+},
+{
+"id": "pJCMNeckBack_27",
+"name": "pJCMNeckBack_27",
+"offset": 250016,
+"count": 483
+},
+{
+"id": "pJCMNeckFwd_35",
+"name": "pJCMNeckFwd_35",
+"offset": 257744,
+"count": 511
+},
+{
+"id": "pJCMNeckLowerSide_40_L",
+"name": "pJCMNeckLowerSide_40_L",
+"offset": 265920,
+"count": 361
+},
+{
+"id": "pJCMNeckLowerSide_40_R",
+"name": "pJCMNeckLowerSide_40_R",
+"offset": 271696,
+"count": 361
+},
+{
+"id": "pJCMNeckTwist_22_L",
+"name": "pJCMNeckTwist_22_L",
+"offset": 277472,
+"count": 185
+},
+{
+"id": "pJCMNeckTwist_22_R",
+"name": "pJCMNeckTwist_22_R",
+"offset": 280432,
+"count": 185
+},
+{
+"id": "pJCMPelvisFwd_25",
+"name": "pJCMPelvisFwd_25",
+"offset": 283392,
+"count": 1320
+},
+{
+"id": "pJCMPinky1Dwn_95_L",
+"name": "pJCMPinky1Dwn_95_L",
+"offset": 304512,
+"count": 92
+},
+{
+"id": "pJCMPinky1Dwn_95_R",
+"name": "pJCMPinky1Dwn_95_R",
+"offset": 305984,
+"count": 92
+},
+{
+"id": "pJCMPinky2Dwn_105_L",
+"name": "pJCMPinky2Dwn_105_L",
+"offset": 307456,
+"count": 64
+},
+{
+"id": "pJCMPinky2Dwn_105_R",
+"name": "pJCMPinky2Dwn_105_R",
+"offset": 308480,
+"count": 64
+},
+{
+"id": "pJCMPinky3Dwn_90_L",
+"name": "pJCMPinky3Dwn_90_L",
+"offset": 309504,
+"count": 49
+},
+{
+"id": "pJCMPinky3Dwn_90_R",
+"name": "pJCMPinky3Dwn_90_R",
+"offset": 310288,
+"count": 49
+},
+{
+"id": "pJCMRing1Dwn_95_L",
+"name": "pJCMRing1Dwn_95_L",
+"offset": 311072,
+"count": 124
+},
+{
+"id": "pJCMRing1Dwn_95_R",
+"name": "pJCMRing1Dwn_95_R",
+"offset": 313056,
+"count": 124
+},
+{
+"id": "pJCMRing2Dwn_105_L",
+"name": "pJCMRing2Dwn_105_L",
+"offset": 315040,
+"count": 79
+},
+{
+"id": "pJCMRing2Dwn_105_R",
+"name": "pJCMRing2Dwn_105_R",
+"offset": 316304,
+"count": 79
+},
+{
+"id": "pJCMRing3Dwn_90_L",
+"name": "pJCMRing3Dwn_90_L",
+"offset": 317568,
+"count": 51
+},
+{
+"id": "pJCMRing3Dwn_90_R",
+"name": "pJCMRing3Dwn_90_R",
+"offset": 318384,
+"count": 51
+},
+{
+"id": "pJCMShinBend_155_L",
+"name": "pJCMShinBend_155_L",
+"offset": 319200,
+"count": 770
+},
+{
+"id": "pJCMShinBend_155_R",
+"name": "pJCMShinBend_155_R",
+"offset": 331520,
+"count": 770
+},
+{
+"id": "pJCMShinBend_90_L",
+"name": "pJCMShinBend_90_L",
+"offset": 343840,
+"count": 728
+},
+{
+"id": "pJCMShinBend_90_R",
+"name": "pJCMShinBend_90_R",
+"offset": 355488,
+"count": 728
+},
+{
+"id": "pJCMShldrDown_40_L",
+"name": "pJCMShldrDown_40_L",
+"offset": 367136,
+"count": 451
+},
+{
+"id": "pJCMShldrDown_40_R",
+"name": "pJCMShldrDown_40_R",
+"offset": 374352,
+"count": 451
+},
+{
+"id": "pJCMShldrFront_n110_Bend_n40_L",
+"name": "pJCMShldrFront_n110_Bend_n40_L",
+"offset": 381568,
+"count": 473
+},
+{
+"id": "pJCMShldrFront_n110_Bend_p90_L",
+"name": "pJCMShldrFront_n110_Bend_p90_L",
+"offset": 389136,
+"count": 434
+},
+{
+"id": "pJCMShldrFront_p110_Bend_n90_R",
+"name": "pJCMShldrFront_p110_Bend_n90_R",
+"offset": 396080,
+"count": 434
+},
+{
+"id": "pJCMShldrFront_p110_Bend_p40_R",
+"name": "pJCMShldrFront_p110_Bend_p40_R",
+"offset": 403024,
+"count": 473
+},
+{
+"id": "pJCMShldrFwd_110_L",
+"name": "pJCMShldrFwd_110_L",
+"offset": 410592,
+"count": 700
+},
+{
+"id": "pJCMShldrFwd_110_R",
+"name": "pJCMShldrFwd_110_R",
+"offset": 421792,
+"count": 700
+},
+{
+"id": "pJCMShldrUp_90_L",
+"name": "pJCMShldrUp_90_L",
+"offset": 432992,
+"count": 932
+},
+{
+"id": "pJCMShldrUp_90_R",
+"name": "pJCMShldrUp_90_R",
+"offset": 447904,
+"count": 932
+},
+{
+"id": "pJCMThighBack_35_L",
+"name": "pJCMThighBack_35_L",
+"offset": 462816,
+"count": 330
+},
+{
+"id": "pJCMThighBack_35_R",
+"name": "pJCMThighBack_35_R",
+"offset": 468096,
+"count": 330
+},
+{
+"id": "pJCMThighFwd_115_L",
+"name": "pJCMThighFwd_115_L",
+"offset": 473376,
+"count": 613
+},
+{
+"id": "pJCMThighFwd_115_R",
+"name": "pJCMThighFwd_115_R",
+"offset": 483184,
+"count": 613
+},
+{
+"id": "pJCMThighFwd_57_L",
+"name": "pJCMThighFwd_57_L",
+"offset": 492992,
+"count": 590
+},
+{
+"id": "pJCMThighFwd_57_R",
+"name": "pJCMThighFwd_57_R",
+"offset": 502432,
+"count": 590
+},
+{
+"id": "pJCMThighSide_85_L",
+"name": "pJCMThighSide_85_L",
+"offset": 511872,
+"count": 488
+},
+{
+"id": "pJCMThighSide_85_R",
+"name": "pJCMThighSide_85_R",
+"offset": 519680,
+"count": 488
+},
+{
+"id": "pJCMThumb1Bend_50_L",
+"name": "pJCMThumb1Bend_50_L",
+"offset": 527488,
+"count": 132
+},
+{
+"id": "pJCMThumb1Bend_50_R",
+"name": "pJCMThumb1Bend_50_R",
+"offset": 529600,
+"count": 132
+},
+{
+"id": "pJCMThumb1Up_20_L",
+"name": "pJCMThumb1Up_20_L",
+"offset": 531712,
+"count": 75
+},
+{
+"id": "pJCMThumb1Up_20_R",
+"name": "pJCMThumb1Up_20_R",
+"offset": 532912,
+"count": 75
+},
+{
+"id": "pJCMThumb2Bend_65_L",
+"name": "pJCMThumb2Bend_65_L",
+"offset": 534112,
+"count": 111
+},
+{
+"id": "pJCMThumb2Bend_65_R",
+"name": "pJCMThumb2Bend_65_R",
+"offset": 535888,
+"count": 111
+},
+{
+"id": "pJCMThumb3Bend_90_L",
+"name": "pJCMThumb3Bend_90_L",
+"offset": 537664,
+"count": 63
+},
+{
+"id": "pJCMThumb3Bend_90_R",
+"name": "pJCMThumb3Bend_90_R",
+"offset": 538672,
+"count": 63
+},
+{
+"id": "pJCMFlexBiceps_L",
+"name": "pJCMFlexBiceps_L",
+"offset": 539680,
+"count": 153
+},
+{
+"id": "pJCMFlexBiceps_R",
+"name": "pJCMFlexBiceps_R",
+"offset": 542128,
+"count": 153
+},
+{
+"id": "pJCMFlexCalf_L",
+"name": "pJCMFlexCalf_L",
+"offset": 544576,
+"count": 264
+},
+{
+"id": "pJCMFlexCalf_R",
+"name": "pJCMFlexCalf_R",
+"offset": 548800,
+"count": 264
+},
+{
+"id": "pJCMFlexCollarUpperBack_L",
+"name": "pJCMFlexCollarUpperBack_L",
+"offset": 553024,
+"count": 288
+},
+{
+"id": "pJCMFlexCollarUpperBack_R",
+"name": "pJCMFlexCollarUpperBack_R",
+"offset": 557632,
+"count": 288
+},
+{
+"id": "pJCMFlexGluteClench_L",
+"name": "pJCMFlexGluteClench_L",
+"offset": 562240,
+"count": 294
+},
+{
+"id": "pJCMFlexGluteClench_R",
+"name": "pJCMFlexGluteClench_R",
+"offset": 566944,
+"count": 294
+},
+{
+"id": "pJCMFlexHamstring_L",
+"name": "pJCMFlexHamstring_L",
+"offset": 571648,
+"count": 170
+},
+{
+"id": "pJCMFlexHamstring_R",
+"name": "pJCMFlexHamstring_R",
+"offset": 574368,
+"count": 170
+},
+{
+"id": "pJCMFlexQuad_L",
+"name": "pJCMFlexQuad_L",
+"offset": 577088,
+"count": 350
+},
+{
+"id": "pJCMFlexQuad_R",
+"name": "pJCMFlexQuad_R",
+"offset": 582688,
+"count": 350
+},
+{
+"id": "pJCMFlexTriceps_L",
+"name": "pJCMFlexTriceps_L",
+"offset": 588288,
+"count": 157
+},
+{
+"id": "pJCMFlexTriceps_R",
+"name": "pJCMFlexTriceps_R",
+"offset": 590800,
+"count": 157
+}
+],
+"formulas": [
+{
+"out": "CTRLMD_N_YRotate_n110",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"y"
+],
+[
+"num",
+-0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "CTRLMD_N_ZRotate_90",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "CTRLMD_N_ZRotate_n40",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"z"
+],
+[
+"num",
+-0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMAbdomen2Fwd_40",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"abdomen2",
+"x"
+],
+[
+"num",
+0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMAbdomen2Side_24_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"abdomen2",
+"z"
+],
+[
+"num",
+-0.04166667
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMAbdomen2Side_24_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"abdomen2",
+"z"
+],
+[
+"num",
+0.04166667
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMAbdomenFwd_35",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"abdomenLower",
+"x"
+],
+[
+"num",
+0.02857143
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMChestFwd_35",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"chest",
+"x"
+],
+[
+"num",
+0.02857143
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMChestSide_24_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"chest",
+"z"
+],
+[
+"num",
+-0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMChestSide_24_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"chest",
+"z"
+],
+[
+"num",
+0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarTwist_n30_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lCollar",
+"x"
+],
+[
+"num",
+-0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarTwist_n30_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rCollar",
+"x"
+],
+[
+"num",
+-0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarTwist_p30_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lCollar",
+"x"
+],
+[
+"num",
+0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarTwist_p30_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rCollar",
+"x"
+],
+[
+"num",
+0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarUp_55_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lCollar",
+"z"
+],
+[
+"num",
+0.01818182
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarUp_55_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMCollarUp_55_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rCollar",
+"z"
+],
+[
+"num",
+-0.01818182
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMCollarUp_55_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMFootDwn_75_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lFoot",
+"x"
+],
+[
+"num",
+0.01333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFootDwn_75_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rFoot",
+"x"
+],
+[
+"num",
+0.01333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHDFootUp_40_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lFoot",
+"x"
+],
+[
+"num",
+-0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHDFootUp_40_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rFoot",
+"x"
+],
+[
+"num",
+-0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMForeArmFwdL",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lForeArm",
+"y"
+],
+[
+"spline",
+[
+[
+-135.0,
+1.0
+],
+[
+-75.0,
+0.0
+],
+[
+0.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMForeArmFwdR",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rForeArm",
+"y"
+],
+[
+"spline",
+[
+[
+0.0,
+0.0
+],
+[
+75.0,
+0.0
+],
+[
+135.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMForeArmFwd_75_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lForeArm",
+"y"
+],
+[
+"spline",
+[
+[
+-75.0,
+1.0
+],
+[
+0.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMForeArmFwd_75_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rForeArm",
+"y"
+],
+[
+"spline",
+[
+[
+0.0,
+0.0
+],
+[
+75.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMHandDwn_70_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lHand",
+"z"
+],
+[
+"num",
+-0.01428571
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHandDwn_70_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rHand",
+"z"
+],
+[
+"num",
+0.01428571
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHandUp_80_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lHand",
+"z"
+],
+[
+"num",
+0.0125
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHandUp_80_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rHand",
+"z"
+],
+[
+"num",
+-0.0125
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHeadBack_27",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"head",
+"x"
+],
+[
+"num",
+-0.03703704
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMHeadFwd_25",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"head",
+"x"
+],
+[
+"num",
+0.04
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex1Dwn_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lIndex1",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex1Dwn_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rIndex1",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex2Dwn_105_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lIndex2",
+"z"
+],
+[
+"num",
+-0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex2Dwn_105_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rIndex2",
+"z"
+],
+[
+"num",
+0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex3Dwn_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lIndex3",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMIndex3Dwn_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rIndex3",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid1Dwn_95_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lMid1",
+"z"
+],
+[
+"num",
+-0.01052632
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid1Dwn_95_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rMid1",
+"z"
+],
+[
+"num",
+0.01052632
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid2Dwn_105_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lMid2",
+"z"
+],
+[
+"num",
+-0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid2Dwn_105_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rMid2",
+"z"
+],
+[
+"num",
+0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid3Dwn_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lMid3",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMMid3Dwn_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rMid3",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckBack_27",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck_2",
+"x"
+],
+[
+"num",
+-0.0185
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckBack_27",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"x"
+],
+[
+"num",
+-0.02
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckFwd_35",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck_2",
+"x"
+],
+[
+"num",
+0.0133
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckFwd_35",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"x"
+],
+[
+"num",
+0.021
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckLowerSide_40_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"z"
+],
+[
+"num",
+-0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckLowerSide_40_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"z"
+],
+[
+"num",
+0.03333333
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckTwist_22_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"y"
+],
+[
+"num",
+0.0454546
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckTwist_22_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"y"
+],
+[
+"num",
+-0.04545455
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckTwist_Reverse",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"neck",
+"x"
+],
+[
+"num",
+0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckTwist_22_R",
+"stage": "sum",
+"ops": [
+[
+"val",
+"pJCMNeckTwist_Reverse"
+],
+[
+"num",
+-1.0
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMNeckTwist_22_L",
+"stage": "sum",
+"ops": [
+[
+"val",
+"pJCMNeckTwist_Reverse"
+],
+[
+"num",
+-1.0
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPelvisFwd_25",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"pelvis",
+"x"
+],
+[
+"num",
+-0.04
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky1Dwn_95_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lPinky1",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky1Dwn_95_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rPinky1",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky2Dwn_105_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lPinky2",
+"z"
+],
+[
+"num",
+-0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky2Dwn_105_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rPinky2",
+"z"
+],
+[
+"num",
+0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky3Dwn_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lPinky3",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMPinky3Dwn_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rPinky3",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing1Dwn_95_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lRing1",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing1Dwn_95_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rRing1",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing2Dwn_105_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lRing2",
+"z"
+],
+[
+"num",
+-0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing2Dwn_105_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rRing2",
+"z"
+],
+[
+"num",
+0.00952381
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing3Dwn_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lRing3",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMRing3Dwn_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rRing3",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShinBend_155_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShin",
+"x"
+],
+[
+"spline",
+[
+[
+90.0,
+0.0
+],
+[
+155.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMShinBend_155_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShin",
+"x"
+],
+[
+"spline",
+[
+[
+90.0,
+0.0
+],
+[
+155.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMShinBend_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShin",
+"x"
+],
+[
+"spline",
+[
+[
+0.0,
+0.0
+],
+[
+90.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMShinBend_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShin",
+"x"
+],
+[
+"spline",
+[
+[
+0.0,
+0.0
+],
+[
+90.0,
+1.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMShldrDown_40_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"z"
+],
+[
+"num",
+-0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrDown_40_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMShldrDown_40_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"z"
+],
+[
+"num",
+0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrDown_40_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMShldrFront_n110_Bend_n40_L",
+"stage": "sum",
+"ops": [
+[
+"val",
+"CTRLMD_N_YRotate_n110"
+]
+]
+},
+{
+"out": "pJCMShldrFront_n110_Bend_n40_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"CTRLMD_N_ZRotate_n40"
+]
+]
+},
+{
+"out": "pJCMShldrFront_n110_Bend_p90_L",
+"stage": "sum",
+"ops": [
+[
+"val",
+"CTRLMD_N_YRotate_n110"
+]
+]
+},
+{
+"out": "pJCMShldrFront_n110_Bend_p90_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"CTRLMD_N_ZRotate_90"
+]
+]
+},
+{
+"out": "pJCMShldrFront_p110_Bend_n90_R",
+"stage": "sum",
+"ops": [
+[
+"val",
+"CTRLMD_N_YRotate_110"
+]
+]
+},
+{
+"out": "pJCMShldrFront_p110_Bend_n90_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"CTRLMD_N_ZRotate_n90"
+]
+]
+},
+{
+"out": "pJCMShldrFront_p110_Bend_p40_R",
+"stage": "sum",
+"ops": [
+[
+"val",
+"CTRLMD_N_YRotate_110"
+]
+]
+},
+{
+"out": "pJCMShldrFront_p110_Bend_p40_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"CTRLMD_N_ZRotate_40"
+]
+]
+},
+{
+"out": "pJCMShldrFwd_110_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"y"
+],
+[
+"num",
+-0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrFwd_110_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMShldrFwd_110_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"y"
+],
+[
+"num",
+0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrFwd_110_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMShldrUp_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShldr",
+"z"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrUp_90_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMShldrUp_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMShldrUp_90_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMThighBack_35_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThigh",
+"x"
+],
+[
+"num",
+0.02857143
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThighBack_35_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThigh",
+"x"
+],
+[
+"num",
+0.02857143
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThighFwd_115_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThigh",
+"x"
+],
+[
+"spline",
+[
+[
+-115.0,
+1.0
+],
+[
+-57.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMThighFwd_115_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThigh",
+"x"
+],
+[
+"spline",
+[
+[
+-115.0,
+1.0
+],
+[
+-57.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMThighFwd_57_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThigh",
+"x"
+],
+[
+"spline",
+[
+[
+-57.0,
+1.0
+],
+[
+0.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMThighFwd_57_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMThighFwd_57_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThigh",
+"x"
+],
+[
+"spline",
+[
+[
+-57.0,
+1.0
+],
+[
+0.0,
+0.0
+]
+],
+"spline_tcb"
+]
+]
+},
+{
+"out": "pJCMThighFwd_57_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"JCMs On"
+]
+]
+},
+{
+"out": "pJCMThighSide_85_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThigh",
+"z"
+],
+[
+"num",
+0.01176471
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThighSide_85_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThigh",
+"z"
+],
+[
+"num",
+-0.01176471
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb1Bend_50_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThumb1",
+"y"
+],
+[
+"num",
+0.02
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb1Bend_50_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThumb1",
+"y"
+],
+[
+"num",
+-0.02
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb1Up_20_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThumb1",
+"z"
+],
+[
+"num",
+0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb1Up_20_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThumb1",
+"z"
+],
+[
+"num",
+-0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb2Bend_65_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThumb2",
+"y"
+],
+[
+"num",
+0.01538462
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb2Bend_65_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThumb2",
+"y"
+],
+[
+"num",
+-0.01538462
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb3Bend_90_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lThumb3",
+"y"
+],
+[
+"num",
+0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMThumb3Bend_90_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rThumb3",
+"y"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "CTRLMD_N_YRotate_110",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"y"
+],
+[
+"num",
+0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "CTRLMD_N_ZRotate_40",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"z"
+],
+[
+"num",
+0.025
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "CTRLMD_N_ZRotate_n90",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShldr",
+"z"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pCTRLFlexBiceps_twist_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lWrist",
+"x"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pCTRLFlexBiceps_twist_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pCTRLFlexBiceps_twist_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rWrist",
+"x"
+],
+[
+"num",
+-0.01111111
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pCTRLFlexBiceps_twist_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lForeArm",
+"y"
+],
+[
+"num",
+-0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"pCTRLFlexBiceps_twist_L"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rForeArm",
+"y"
+],
+[
+"num",
+0.009090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"pCTRLFlexBiceps_twist_R"
+]
+]
+},
+{
+"out": "pJCMFlexBiceps_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexCalf_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lFoot",
+"x"
+],
+[
+"num",
+0.01538462
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexCalf_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexCalf_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rFoot",
+"x"
+],
+[
+"num",
+0.01538462
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexCalf_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexCollarUpperBack_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lCollar",
+"y"
+],
+[
+"num",
+0.05882353
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexCollarUpperBack_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexCollarUpperBack_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rCollar",
+"y"
+],
+[
+"num",
+-0.05882353
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexCollarUpperBack_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexGluteClench_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexGluteClench_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexHamstring_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShin",
+"x"
+],
+[
+"num",
+0.006451613
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexHamstring_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexHamstring_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShin",
+"x"
+],
+[
+"num",
+0.006451613
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexHamstring_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexQuad_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lShin",
+"x"
+],
+[
+"num",
+-0.09090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexQuad_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexQuad_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rShin",
+"x"
+],
+[
+"num",
+-0.09090909
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexQuad_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexTriceps_L",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"lForeArm",
+"y"
+],
+[
+"num",
+0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexTriceps_L",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+},
+{
+"out": "pJCMFlexTriceps_R",
+"stage": "sum",
+"ops": [
+[
+"bone",
+"rForeArm",
+"y"
+],
+[
+"num",
+-0.05
+],
+[
+"mult"
+]
+]
+},
+{
+"out": "pJCMFlexTriceps_R",
+"stage": "mult",
+"ops": [
+[
+"val",
+"BaseFlexions"
+]
+]
+}
+],
+"clamps": {
+"CTRLMD_N_YRotate_n110": [
+0.0,
+1.0
+],
+"CTRLMD_N_ZRotate_90": [
+0.0,
+1.0
+],
+"CTRLMD_N_ZRotate_n40": [
+0.0,
+1.0
+],
+"pJCMAbdomen2Fwd_40": [
+-0.5,
+1.0
+],
+"pJCMAbdomen2Side_24_L": [
+0.0,
+1.0
+],
+"pJCMAbdomen2Side_24_R": [
+0.0,
+1.0
+],
+"pJCMAbdomenFwd_35": [
+-0.5,
+1.0
+],
+"pJCMChestFwd_35": [
+0.0,
+1.0
+],
+"pJCMChestSide_24_L": [
+0.0,
+1.0
+],
+"pJCMChestSide_24_R": [
+0.0,
+1.0
+],
+"pJCMCollarTwist_n30_L": [
+0.0,
+1.0
+],
+"pJCMCollarTwist_n30_R": [
+0.0,
+1.0
+],
+"pJCMCollarTwist_p30_L": [
+0.0,
+1.0
+],
+"pJCMCollarTwist_p30_R": [
+0.0,
+1.0
+],
+"pJCMCollarUp_55_L": [
+0.0,
+1.0
+],
+"pJCMCollarUp_55_R": [
+0.0,
+1.0
+],
+"pJCMFootDwn_75_L": [
+0.0,
+1.0
+],
+"pJCMFootDwn_75_R": [
+0.0,
+1.0
+],
+"pJCMHDFootUp_40_L": [
+0.0,
+1.0
+],
+"pJCMHDFootUp_40_R": [
+0.0,
+1.0
+],
+"pJCMForeArmFwdL": [
+0.0,
+1.0
+],
+"pJCMForeArmFwdR": [
+0.0,
+1.0
+],
+"pJCMForeArmFwd_75_L": [
+0.0,
+1.0
+],
+"pJCMForeArmFwd_75_R": [
+0.0,
+1.0
+],
+"pJCMHandDwn_70_L": [
+0.0,
+1.0
+],
+"pJCMHandDwn_70_R": [
+0.0,
+1.0
+],
+"pJCMHandUp_80_L": [
+0.0,
+1.0
+],
+"pJCMHandUp_80_R": [
+0.0,
+1.0
+],
+"pJCMHeadBack_27": [
+0.0,
+1.0
+],
+"pJCMHeadFwd_25": [
+0.0,
+1.0
+],
+"pJCMIndex1Dwn_90_L": [
+0.0,
+1.0
+],
+"pJCMIndex1Dwn_90_R": [
+0.0,
+1.0
+],
+"pJCMIndex2Dwn_105_L": [
+0.0,
+1.0
+],
+"pJCMIndex2Dwn_105_R": [
+0.0,
+1.0
+],
+"pJCMIndex3Dwn_90_L": [
+0.0,
+1.0
+],
+"pJCMIndex3Dwn_90_R": [
+0.0,
+1.0
+],
+"pJCMMid1Dwn_95_L": [
+0.0,
+1.0
+],
+"pJCMMid1Dwn_95_R": [
+0.0,
+1.0
+],
+"pJCMMid2Dwn_105_L": [
+0.0,
+1.0
+],
+"pJCMMid2Dwn_105_R": [
+0.0,
+1.0
+],
+"pJCMMid3Dwn_90_L": [
+0.0,
+1.0
+],
+"pJCMMid3Dwn_90_R": [
+0.0,
+1.0
+],
+"pJCMNeckBack_27": [
+0.0,
+1.0
+],
+"pJCMNeckFwd_35": [
+0.0,
+1.0
+],
+"pJCMNeckLowerSide_40_L": [
+0.0,
+1.0
+],
+"pJCMNeckLowerSide_40_R": [
+0.0,
+1.0
+],
+"pJCMNeckTwist_22_L": [
+0.0,
+1.0
+],
+"pJCMNeckTwist_22_R": [
+0.0,
+1.0
+],
+"pJCMNeckTwist_Reverse": [
+0.0,
+1.0
+],
+"pJCMPelvisFwd_25": [
+-0.25,
+1.0
+],
+"pJCMPinky1Dwn_95_L": [
+0.0,
+1.0
+],
+"pJCMPinky1Dwn_95_R": [
+0.0,
+1.0
+],
+"pJCMPinky2Dwn_105_L": [
+0.0,
+1.0
+],
+"pJCMPinky2Dwn_105_R": [
+0.0,
+1.0
+],
+"pJCMPinky3Dwn_90_L": [
+0.0,
+1.0
+],
+"pJCMPinky3Dwn_90_R": [
+0.0,
+1.0
+],
+"pJCMRing1Dwn_95_L": [
+0.0,
+1.0
+],
+"pJCMRing1Dwn_95_R": [
+0.0,
+1.0
+],
+"pJCMRing2Dwn_105_L": [
+0.0,
+1.0
+],
+"pJCMRing2Dwn_105_R": [
+0.0,
+1.0
+],
+"pJCMRing3Dwn_90_L": [
+0.0,
+1.0
+],
+"pJCMRing3Dwn_90_R": [
+0.0,
+1.0
+],
+"pJCMShinBend_155_L": [
+0.0,
+1.0
+],
+"pJCMShinBend_155_R": [
+0.0,
+1.0
+],
+"pJCMShinBend_90_L": [
+0.0,
+1.0
+],
+"pJCMShinBend_90_R": [
+0.0,
+1.0
+],
+"pJCMShldrDown_40_L": [
+0.0,
+1.0
+],
+"pJCMShldrDown_40_R": [
+0.0,
+1.0
+],
+"pJCMShldrFront_n110_Bend_n40_L": [
+0.0,
+1.0
+],
+"pJCMShldrFront_n110_Bend_p90_L": [
+0.0,
+1.0
+],
+"pJCMShldrFront_p110_Bend_n90_R": [
+0.0,
+1.0
+],
+"pJCMShldrFront_p110_Bend_p40_R": [
+0.0,
+1.0
+],
+"pJCMShldrFwd_110_L": [
+0.0,
+1.0
+],
+"pJCMShldrFwd_110_R": [
+0.0,
+1.0
+],
+"pJCMShldrUp_90_L": [
+0.0,
+1.0
+],
+"pJCMShldrUp_90_R": [
+0.0,
+1.0
+],
+"pJCMThighBack_35_L": [
+0.0,
+1.0
+],
+"pJCMThighBack_35_R": [
+0.0,
+1.0
+],
+"pJCMThighFwd_115_L": [
+0.0,
+1.0
+],
+"pJCMThighFwd_115_R": [
+0.0,
+1.0
+],
+"pJCMThighFwd_57_L": [
+0.0,
+1.0
+],
+"pJCMThighFwd_57_R": [
+0.0,
+1.0
+],
+"pJCMThighSide_85_L": [
+0.0,
+1.0
+],
+"pJCMThighSide_85_R": [
+0.0,
+1.0
+],
+"pJCMThumb1Bend_50_L": [
+0.0,
+1.0
+],
+"pJCMThumb1Bend_50_R": [
+0.0,
+1.0
+],
+"pJCMThumb1Up_20_L": [
+0.0,
+1.0
+],
+"pJCMThumb1Up_20_R": [
+0.0,
+1.0
+],
+"pJCMThumb2Bend_65_L": [
+0.0,
+1.0
+],
+"pJCMThumb2Bend_65_R": [
+0.0,
+1.0
+],
+"pJCMThumb3Bend_90_L": [
+0.0,
+1.0
+],
+"pJCMThumb3Bend_90_R": [
+0.0,
+1.0
+],
+"CTRLMD_N_YRotate_110": [
+0.0,
+1.0
+],
+"CTRLMD_N_ZRotate_40": [
+0.0,
+1.0
+],
+"CTRLMD_N_ZRotate_n90": [
+0.0,
+1.0
+],
+"pCTRLFlexBiceps_twist_L": [
+0.0,
+1.0
+],
+"pCTRLFlexBiceps_twist_R": [
+0.0,
+1.0
+],
+"pJCMFlexBiceps_L": [
+0.0,
+1.0
+],
+"pJCMFlexBiceps_R": [
+0.0,
+1.0
+],
+"pJCMFlexCalf_L": [
+0.0,
+1.0
+],
+"pJCMFlexCalf_R": [
+0.0,
+1.0
+],
+"pJCMFlexCollarUpperBack_L": [
+0.0,
+1.0
+],
+"pJCMFlexCollarUpperBack_R": [
+0.0,
+1.0
+],
+"pJCMFlexGluteClench_L": [
+0.0,
+1.0
+],
+"pJCMFlexGluteClench_R": [
+0.0,
+1.0
+],
+"pJCMFlexHamstring_L": [
+0.0,
+1.0
+],
+"pJCMFlexHamstring_R": [
+0.0,
+1.0
+],
+"pJCMFlexQuad_L": [
+0.0,
+1.0
+],
+"pJCMFlexQuad_R": [
+0.0,
+1.0
+],
+"pJCMFlexTriceps_L": [
+0.0,
+1.0
+],
+"pJCMFlexTriceps_R": [
+0.0,
+1.0
+]
+},
+"defaults": {
+"JCMs On": 1.0,
+"BaseFlexions": 1.0,
+"PBMNavel": 0.0
+}
+}

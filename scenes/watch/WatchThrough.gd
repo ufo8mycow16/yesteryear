@@ -200,6 +200,11 @@ func _make_actor(who: String, at: Vector3, facing_deg: float) -> Node3D:
 			if t != null:
 				set_node.add_child(t)
 				return t
+		"healer", "amanda":
+			var w := _make_woman(who)
+			if w != null:
+				set_node.add_child(w)
+				return w
 		"lematya":
 			var lm := LeMatya.make(set_node, "LeMatya", at, facing_deg)
 			if lm != null:
@@ -211,6 +216,46 @@ func _make_actor(who: String, at: Vector3, facing_deg: float) -> Node3D:
 	var m := Marker.make(String(NAMES.get(who, who)), float(HEIGHTS.get(who, 1.8)))
 	set_node.add_child(m)
 	return m
+
+
+## The healer and Amanda: Vulcan Fury's crew-kit women - a face mixed region by region from the kit's faces,
+## a kit skin and hair - in Glen's Royal Elf gown (the city's Vulcan women, CrewLooks.make_vulcan_woman, but
+## chosen by hand). The healer is Vulcan (T'Pol's ears and skin, older eyes, greying hair, a cape for the night
+## walk); Amanda is human, with a sixties up-do.
+const WOMEN := {
+	"healer": {
+		"look": {"mix": {
+				"eyes": {"austine": 0.6, "tpol": 0.4}, "brow": {"tpol": 0.7, "austine": 0.3},
+				"nose": {"tpol": 0.5, "celeste": 0.5}, "mouth": {"austine": 0.5, "tpol": 0.5},
+				"jaw": {"tpol": 0.6, "austine": 0.4}, "cheeks": {"austine": 0.6, "tpol": 0.4},
+				"ears": {"tpol": 1.0}, "rest": {"tpol": 0.5, "austine": 0.5}},
+			"skin": "tpol", "hair": "smooth_bob_0", "hair_tint": [0.80, 0.80, 0.82], "skin_tint": [1, 1, 1], "height": 0.98},
+		"gown": "sand", "cape": true},
+	"amanda": {
+		"look": {"mix": {
+				"eyes": {"kate": 0.6, "celeste": 0.4}, "brow": {"kate": 0.5, "celeste": 0.5},
+				"nose": {"celeste": 0.6, "kate": 0.4}, "mouth": {"celeste": 0.5, "cressida": 0.5},
+				"jaw": {"kate": 0.5, "celeste": 0.5}, "cheeks": {"kate": 0.6, "celeste": 0.4},
+				"ears": {"kate": 1.0}, "rest": {"kate": 0.5, "celeste": 0.5}},
+			"skin": "kate", "hair": "mega_updo_0", "hair_tint": [0.62, 0.46, 0.33], "skin_tint": [1, 1, 1], "height": 0.96},
+		"gown": "plum", "cape": false},
+}
+
+
+func _make_woman(who: String) -> Node3D:
+	var spec: Dictionary = WOMEN[who]
+	var look: Dictionary = (spec["look"] as Dictionary).duplicate(true)
+	var fig := CrewLooks.make_with_look("female", look, "red")
+	if fig == null:
+		return null
+	if fig.get_child_count() > 0 and fig.get_child(0) is Node3D:
+		(fig.get_child(0) as Node3D).scale = Vector3.ONE * float(look.get("height", 1.0))
+	DazOutfit.wear(fig, "royal_gown", String(spec["gown"]), {} if bool(spec["cape"]) else {"leave_off": ["cape"]})
+	fig.name = who.capitalize()
+	fig.add_to_group("speakers")
+	fig.set_meta("speaker_id", who)
+	fig.set_meta("display_name", String(NAMES.get(who, who.capitalize())))
+	return fig
 
 
 func _face(a: Node3D, at: Vector3) -> void:

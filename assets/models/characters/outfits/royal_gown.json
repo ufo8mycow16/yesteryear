@@ -1,0 +1,686 @@
+{
+ "name": "royal_gown",
+ "node": "Outfit",
+ "points_y": [
+  0.8358034491539001,
+  181.4213409423828
+ ],
+ "bones": [
+  "chestUpper",
+  "chestLower",
+  "neckLower",
+  "neckUpper",
+  "lCollar",
+  "rPectoral",
+  "lPectoral",
+  "abdomenUpper",
+  "abdomenLower",
+  "lShldrBend",
+  "lShldrTwist",
+  "rCollar",
+  "lForearmBend",
+  "pelvis",
+  "lThighBend",
+  "rThighBend",
+  "lThighTwist",
+  "UpperBackHandle",
+  "UpperFrontHandle",
+  "hip",
+  "LeftUpperHandle",
+  "LowerBackHandle",
+  "LowerFrontHandle",
+  "RightLowerHandle",
+  "LeftLowerHandle",
+  "lForearmTwist",
+  "head",
+  "lowerJaw",
+  "BelowJaw",
+  "RightUpperHandle",
+  "rShldrBend",
+  "rShldrTwist",
+  "rForearmBend",
+  "rThighTwist",
+  "rForearmTwist",
+  "Cape16",
+  "Cape15",
+  "Cape01",
+  "Cape14",
+  "Cape07",
+  "Cape08",
+  "Cape06",
+  "Cape05",
+  "Cape09",
+  "Cape02",
+  "Cape03",
+  "Cape13",
+  "Cape04",
+  "Cape10",
+  "Cape11",
+  "Cape12",
+  "lShin",
+  "lBigToe",
+  "lMetatarsals",
+  "lBigToe_2",
+  "lToe",
+  "lFoot",
+  "rShin",
+  "lSmallToe1_2",
+  "lSmallToe2_2",
+  "lSmallToe3_2",
+  "lSmallToe4",
+  "lSmallToe1",
+  "lSmallToe2",
+  "lSmallToe4_2",
+  "lSmallToe3",
+  "rBigToe_2",
+  "rSmallToe1_2",
+  "rBigToe",
+  "rSmallToe2_2",
+  "rSmallToe3_2",
+  "rFoot",
+  "rMetatarsals",
+  "rToe",
+  "rSmallToe4",
+  "rSmallToe1",
+  "rSmallToe2",
+  "rSmallToe4_2",
+  "rSmallToe3"
+ ],
+ "surfaces": [
+  {
+   "piece": "gown",
+   "material": "TunicFabric",
+   "picture": "res://assets/models/characters/outfits/royal_gown/gown_{variant}.jpg",
+   "pos": {
+    "at": 0,
+    "count": 9177,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 36708,
+    "count": 9177,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 73416,
+    "count": 6118,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 97888,
+    "count": 12236,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 146832,
+    "count": 12236,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 195776,
+    "count": 16992,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "gown",
+   "material": "TunicBottomHem",
+   "picture": "res://assets/models/characters/outfits/royal_gown/gown_{variant}.jpg",
+   "pos": {
+    "at": 263744,
+    "count": 813,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 266996,
+    "count": 813,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 270248,
+    "count": 542,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 272416,
+    "count": 1084,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 276752,
+    "count": 1084,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 281088,
+    "count": 1074,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "gown",
+   "material": "TunicSleeves",
+   "picture": "res://assets/models/characters/outfits/royal_gown/gown_{variant}.jpg",
+   "pos": {
+    "at": 285384,
+    "count": 7218,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 314256,
+    "count": 7218,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 343128,
+    "count": 4812,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 362376,
+    "count": 9624,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 400872,
+    "count": 9624,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 439368,
+    "count": 13473,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "gown",
+   "material": "TunicNeckCollar",
+   "picture": "res://assets/models/characters/outfits/royal_gown/gown_{variant}.jpg",
+   "pos": {
+    "at": 493260,
+    "count": 729,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 496176,
+    "count": 729,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 499092,
+    "count": 486,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 501036,
+    "count": 972,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 504924,
+    "count": 972,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 508812,
+    "count": 1065,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "overtunic",
+   "material": "OTunicFabric",
+   "picture": "res://assets/models/characters/outfits/royal_gown/overtunic_{variant}.jpg",
+   "pos": {
+    "at": 513072,
+    "count": 7893,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 544644,
+    "count": 7893,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 576216,
+    "count": 5262,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 597264,
+    "count": 10524,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 639360,
+    "count": 10524,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 681456,
+    "count": 14283,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "overtunic",
+   "material": "OTunicNeckCollar",
+   "picture": "res://assets/models/characters/outfits/royal_gown/overtunic_{variant}.jpg",
+   "pos": {
+    "at": 738588,
+    "count": 1311,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 743832,
+    "count": 1311,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 749076,
+    "count": 874,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 752572,
+    "count": 1748,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 759564,
+    "count": 1748,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 766556,
+    "count": 1983,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "overtunic",
+   "material": "OTunicSleeves",
+   "picture": "res://assets/models/characters/outfits/royal_gown/overtunic_{variant}.jpg",
+   "pos": {
+    "at": 774488,
+    "count": 4116,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 790952,
+    "count": 4116,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 807416,
+    "count": 2744,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 818392,
+    "count": 5488,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 840344,
+    "count": 5488,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 862296,
+    "count": 7464,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "cape",
+   "material": "CapeFabric",
+   "picture": "res://assets/models/characters/outfits/royal_gown/cape_{variant}.jpg",
+   "pos": {
+    "at": 892152,
+    "count": 7029,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 920268,
+    "count": 7029,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 948384,
+    "count": 4686,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 967128,
+    "count": 9372,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1004616,
+    "count": 9372,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1042104,
+    "count": 12993,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "cape",
+   "material": "CapeOuterEdges",
+   "picture": "res://assets/models/characters/outfits/royal_gown/cape_{variant}.jpg",
+   "pos": {
+    "at": 1094076,
+    "count": 2115,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1102536,
+    "count": 2115,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1110996,
+    "count": 1410,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1116636,
+    "count": 2820,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1127916,
+    "count": 2820,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1139196,
+    "count": 3117,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "cape",
+   "material": "CapeNeckTrim",
+   "picture": "res://assets/models/characters/outfits/royal_gown/cape_{variant}.jpg",
+   "pos": {
+    "at": 1151664,
+    "count": 912,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1155312,
+    "count": 912,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1158960,
+    "count": 608,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1161392,
+    "count": 1216,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1166256,
+    "count": 1216,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1171120,
+    "count": 1257,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "sash",
+   "material": "BuckleCenter",
+   "picture": "res://assets/models/characters/outfits/royal_gown/sash_{variant}.jpg",
+   "pos": {
+    "at": 1176148,
+    "count": 303,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1177360,
+    "count": 303,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1178572,
+    "count": 202,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1179380,
+    "count": 404,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1180996,
+    "count": 404,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1182612,
+    "count": 528,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "sash",
+   "material": "BuckleEdge",
+   "picture": "res://assets/models/characters/outfits/royal_gown/sash_{variant}.jpg",
+   "pos": {
+    "at": 1184724,
+    "count": 477,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1186632,
+    "count": 477,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1188540,
+    "count": 318,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1189812,
+    "count": 636,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1192356,
+    "count": 636,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1194900,
+    "count": 720,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "sash",
+   "material": "BeltBuckle",
+   "picture": "res://assets/models/characters/outfits/royal_gown/sash_{variant}.jpg",
+   "pos": {
+    "at": 1197780,
+    "count": 390,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1199340,
+    "count": 390,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1200900,
+    "count": 260,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1201940,
+    "count": 520,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1204020,
+    "count": 520,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1206100,
+    "count": 648,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "sash",
+   "material": "BeltFabric",
+   "picture": "res://assets/models/characters/outfits/royal_gown/sash_{variant}.jpg",
+   "pos": {
+    "at": 1208692,
+    "count": 4701,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1227496,
+    "count": 4701,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1246300,
+    "count": 3134,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1258836,
+    "count": 6268,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1283908,
+    "count": 6268,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1308980,
+    "count": 8424,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "boots",
+   "material": "BootSoles",
+   "picture": "res://assets/models/characters/outfits/royal_gown/boots_{variant}.jpg",
+   "pos": {
+    "at": 1342676,
+    "count": 1644,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1349252,
+    "count": 1644,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1355828,
+    "count": 1096,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1360212,
+    "count": 2192,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1368980,
+    "count": 2192,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1377748,
+    "count": 2631,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "boots",
+   "material": "BootsLeather",
+   "picture": "res://assets/models/characters/outfits/royal_gown/boots_{variant}.jpg",
+   "pos": {
+    "at": 1388272,
+    "count": 3333,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1401604,
+    "count": 3333,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1414936,
+    "count": 2222,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1423824,
+    "count": 4444,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1441600,
+    "count": 4444,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1459376,
+    "count": 6000,
+    "dtype": "int32"
+   }
+  },
+  {
+   "piece": "boots",
+   "material": "BootsEdges",
+   "picture": "res://assets/models/characters/outfits/royal_gown/boots_{variant}.jpg",
+   "pos": {
+    "at": 1483376,
+    "count": 651,
+    "dtype": "float32"
+   },
+   "nrm": {
+    "at": 1485980,
+    "count": 651,
+    "dtype": "float32"
+   },
+   "uv": {
+    "at": 1488584,
+    "count": 434,
+    "dtype": "float32"
+   },
+   "joints": {
+    "at": 1490320,
+    "count": 868,
+    "dtype": "int32"
+   },
+   "weights": {
+    "at": 1493792,
+    "count": 868,
+    "dtype": "float32"
+   },
+   "index": {
+    "at": 1497264,
+    "count": 840,
+    "dtype": "int32"
+   }
+  }
+ ]
+}
